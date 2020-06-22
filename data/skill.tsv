@@ -1,0 +1,625 @@
+id	idh	name	tag
+0	0000	Attack	
+1	0001	Agi	
+2	0002	Agilao	
+3	0003	Agidyne	
+4	0004	Maragi	
+5	0005	Maragion	
+6	0006	Maragidyne	
+7	0007	Prominence	
+8	0008	Ragnarok	
+9	0009	Immortal Flame	
+10	000A	Tiny Soul Tomato	
+11	000B	Tetracorn	
+12	000C	Run Amok	
+13	000D	Shake Off	
+14	000E	Garu	
+15	000F	Garula	
+16	0010	Garudyne	
+17	0011	Magaru	
+18	0012	Magarula	
+19	0013	Magarudyne	
+20	0014	Divine Vacuum	
+21	0015	Panta Rhei	
+22	0016	Hiranya Cabbage	
+23	0017	Cry of Denial	
+24	0018	Hot Lightning	
+25	0019	Draining Fog	
+26	001A	Bufu	
+27	001B	Bufula	
+28	001C	Bufudyne	
+29	001D	Mabufu	
+30	001E	Mabufula	
+31	001F	Mabufudyne	
+32	0020	Cocytus Pain	
+33	0021	Niflheim	
+34	0022	Bloody Rain	
+35	0023	Red Paprika	
+36	0024	Enclosure Shell	
+37	0025	Hot Lightning	
+38	0026	Shell of Denial	
+39	0027	Zio	
+40	0028	Zionga	
+41	0029	Ziodyne	
+42	002A	Mazio	
+43	002B	Mazionga	
+44	002C	Maziodyne	
+45	002D	Jihad	
+46	002E	Thunder Reign	
+47	002F	Bead Melon	
+48	0030	Mid Soul Tomato	
+49	0031	Big Soul Tomato	
+50	0032	Makaracorn	
+51	0033	Megido	
+52	0034	Megidola	
+53	0035	Megidolaon	
+54	0036	Last Resort	
+55	0037	Black Viper	
+56	0038	Morning Star	
+57	0039	White Paprika	
+58	003A	Blue Paprika	
+59	003B	Green Paprika	
+60	003C	Blank	
+61	003D	Hama	
+62	003E	Hamaon	
+63	003F	Mahama	
+64	0040	Mahamaon	
+65	0041	Eternal White	
+66	0042	God's Judgment	
+67	0043	Samsara	
+68	0044	Blank	
+69	0045	Blank	
+70	0046	Blank	
+71	0047	Blank	
+72	0048	Mudo	
+73	0049	Mudoon	
+74	004A	Mamudo	
+75	004B	Mamudoon	
+76	004C	Eternal Black	
+77	004D	Demonic Judgment	
+78	004E	Die for Me!	
+79	004F	Blank	
+80	0050	Blank	
+81	0051	Blank	
+82	0052	Blank	
+83	0053	Pulinpa	
+84	0054	Tentarafoo	
+85	0055	Evil Touch	
+86	0056	Evil Smile	
+87	0057	Ghastly Wail	
+88	0058	Balzac	
+89	0059	Valiant Dance	
+90	005A	Poisma	
+91	005B	Poison Mist	
+92	005C	Soul Break	
+93	005D	Anima Freeze	
+94	005E	Enervation	
+95	005F	Old One	
+96	0060	Galgalim Eyes	
+97	0061	Makajam	
+98	0062	Foolish Whisper	
+99	0063	Foul Breath	
+100	0064	Stagnant Air	
+101	0065	Life Drain	
+102	0066	Spirit Drain	
+103	0067	Life Leech	
+104	0068	Spirit Leech	
+105	0069	Judgement	
+106	006A	Balzac	
+107	006B	Last Resort	
+108	006C	Last Resort	
+109	006D	Kamui Miracle	
+110	006E	Kamui Miracle	
+111	006F	Kamui Miracle	
+112	0070	Kamui Miracle	
+113	0071	Kamui Miracle	
+114	0072	Kamui Miracle	
+115	0073	Kamui Miracle	
+116	0074	Kamui Miracle	
+117	0075	Kamui Miracle	
+118	0076	Blank	
+119	0077	Elemental Break	
+120	0078	Bash	
+121	0079	Cleave	
+122	007A	Assault Dive	
+123	007B	Sonic Punch	
+124	007C	Double Fangs	
+125	007D	Kill Rush	
+126	007E	Swift Strike	
+127	007F	Twin Shot	
+128	0080	Fatal End	
+129	0081	Mighty Swing	
+130	0082	Torrent Shot	
+131	0083	Heat Wave	
+132	0084	Gigantic Fist	
+133	0085	Blade of Fury	
+134	0086	Deathbound	
+135	0087	Arrow Rain	
+136	0088	Akasha Arts	
+137	0089	Tempest Slash	
+138	008A	Heaven's Blade	
+139	008B	Myriad Arrows	
+140	008C	God's Hand	
+141	008D	Pralaya	
+142	008E	Primal Force	
+143	008F	Vorpal Blade	
+144	0090	Power Slash	
+145	0091	Gale Slash	
+146	0092	Brave Blade	
+147	0093	Herculean Strike	
+148	0094	Vicious Strike	
+149	0095	Single Shot	
+150	0096	Skewer	
+151	0097	Poison Skewer	
+152	0098	Poison Arrow	
+153	0099	Blight	
+154	009A	Virus Wave	
+155	009B	Skull Cracker	
+156	009C	Mind Slice	
+157	009D	Hysterical Slap	
+158	009E	Crazy Chain	
+159	009F	Muzzle Shot	
+160	00A0	Seal Bomb	
+161	00A1	Arm Chopper	
+162	00A2	Atom Smasher	
+163	00A3	Cell Breaker	
+164	00A4	Mustard Bomb	
+165	00A5	Brain Shake	
+166	00A6	Navas Nebula	
+167	00A7	Golden Right	
+168	00A8	Black Spot	
+169	00A9	Rainy Death	
+170	00AA	Hassou Tobi	
+171	00AB	Rampage	
+172	00AC	Aeon Rain	
+173	00AD	Agneyastra	
+174	00AE	Cruel Attack	
+175	00AF	Vile Assault	
+176	00B0	Rampage	
+177	00B1	Attack Up Support	
+178	00B2	Guard Up Support	
+179	00B3	Agility Up Support	
+180	00B4	Charge Support	
+181	00B5	HP Recovery Support	
+182	00B6	SP Recovery Support	
+183	00B7	Blank	
+184	00B8	Blank	
+185	00B9	Blank	
+186	00BA	Blank	
+187	00BB	Blank	
+188	00BC	Blank	
+189	00BD	Blank	
+190	00BE	Blank	
+191	00BF	Blank	
+192	00C0	Dia	
+193	00C1	Diarama	
+194	00C2	Diarahan	
+195	00C3	Media	
+196	00C4	Mediarama	
+197	00C5	Mediarahan	
+198	00C6	Salvation	
+199	00C7	Patra	
+200	00C8	Me Patra	
+201	00C9	Re Patra	
+202	00CA	Posumudi	
+203	00CB	Mutudi	
+204	00CC	Enradi	
+205	00CD	Tirundi	
+206	00CE	Nervundi	
+207	00CF	Energy Shower	
+208	00D0	Amrita	
+209	00D1	Recarm	
+210	00D2	Samarecarm	
+211	00D3	Tarunda	
+212	00D4	Matarunda	
+213	00D5	Sukunda	
+214	00D6	Masukunda	
+215	00D7	Rakunda	
+216	00D8	Marakunda	
+217	00D9	Dekunda	
+218	00DA	Tarukaja	
+219	00DB	Matarukaja	
+220	00DC	Sukukaja	
+221	00DD	Masukukaja	
+222	00DE	Rakukaja	
+223	00DF	Marakukaja	
+224	00E0	Dekaja	
+225	00E1	Heat Riser	
+226	00E2	Debilitate	
+227	00E3	Power Charge	
+228	00E4	Mind Charge	
+229	00E5	Tetrakarn	
+230	00E6	Makarakarn	
+231	00E7	Tetra Break	
+232	00E8	Makara Break	
+233	00E9	Tetraja	
+234	00EA	Rebellion	
+235	00EB	Revolution	
+236	00EC	Fire Break	
+237	00ED	Ice Break	
+238	00EE	Wind Break	
+239	00EF	Elec Break	
+240	00F0	Red Wall	
+241	00F1	White Wall	
+242	00F2	Blue Wall	
+243	00F3	Green Wall	
+244	00F4	Trafuri	
+245	00F5	Recarmdra	
+246	00F6	Traesto	
+247	00F7	Youthful Wind	
+248	00F8	Dragon Hustle	
+249	00F9	Burning Petals	
+250	00FA	The Man's Way	
+251	00FB	Kamui Miracle	
+252	00FC	Shield of Justice	
+253	00FD	Complete Analysis	
+254	00FE	Blank	
+255	00FF	? ? ? ? ?	
+256	0100	100	
+257	0101	101	
+258	0102	102	
+259	0103	Waste Money	
+260	0104	Yosuke Strike	
+261	0105	Galactic Punt	
+262	0106	Fan Assault	
+263	0107	Atomic Press	
+264	0108	Wild Ways	
+265	0109	Ultra Trigger	
+266	010A	Galaxy Kick	
+267	010B	Full Analysis	
+268	010C	Third Eye	
+269	010D	Weakness Scan	
+270	010E	Healing Wave	
+271	010F	Relaxing Wave	
+272	0110	Analyze	
+273	0111	Summon	
+274	0112	Enemy Radar	
+275	0113	Treasure Radar	
+276	0114	Certain Escape	
+277	0115	Myriad Truths	
+278	0116	Cavalry Attack	
+279	0117	Cavalry Attack	
+280	0118	Cavalry Attack	
+281	0119	Cavalry Attack	
+282	011A	Cavalry Attack	
+283	011B	Cavalry Attack	
+284	011C	All-Out Boost	
+285	011D	Rise's Revival	
+286	011E	Stamina Song	
+287	011F	Vigor Song	
+288	0120	Sarx Drop	
+289	0121	Medicine	
+290	0122	Medical Powder	
+291	0123	Spirit Water	
+292	0124	Life Stone	
+293	0125	Bead	
+294	0126	Value Medicine	
+295	0127	Medical Kit	
+296	0128	Umugi Water	
+297	0129	Bead Chain	
+298	012A	Pneuma Drop	
+299	012B	Snuff Soul	
+300	012C	Chewing Soul	
+301	012D	Precious Egg	
+302	012E	12E	
+303	012F	12F	
+304	0130	130	
+305	0131	131	
+306	0132	132	
+307	0133	133	
+308	0134	134	
+309	0135	135	
+310	0136	136	
+311	0137	137	
+312	0138	138	
+313	0139	139	
+314	013A	13A	
+315	013B	13B	
+316	013C	13C	
+317	013D	13D	
+318	013E	13E	
+319	013F	13F	
+320	0140	140	
+321	0141	141	
+322	0142	142	
+323	0143	143	
+324	0144	144	
+325	0145	145	
+326	0146	146	
+327	0147	147	
+328	0148	148	
+329	0149	149	
+330	014A	14A	
+331	014B	14B	
+332	014C	14C	
+333	014D	14D	
+334	014E	14E	
+335	014F	14F	
+336	0150	150	
+337	0151	151	
+338	0152	152	
+339	0153	153	
+340	0154	154	
+341	0155	155	
+342	0156	156	
+343	0157	157	
+344	0158	158	
+345	0159	159	
+346	015A	15A	
+347	015B	15B	
+348	015C	15C	
+349	015D	Junes Bomber	
+350	015E	Twin Dragons	
+351	015F	Beauty & The Beast	
+352	0160	Wind of Oblivion	
+353	0161	Bottomless Envy	
+354	0162	Burn to Ashes	
+355	0163	Shivering Rondo	
+356	0164	Summon	
+357	0165	Summon	
+358	0166	Forbidden Murmur	
+359	0167	Roar of Wrath	
+360	0168	Fanatical Spark	
+361	0169	Supreme Insight	
+362	016A	Nihil Hand	
+363	016B	Ultra Charge	
+364	016C	Nullity Guidance	
+365	016D	Attack	
+366	016E	Whisper	
+367	016F	Chant	
+368	0170	Prayer	
+369	0171	Character Setup	
+370	0172	Command	
+371	0173	Command	
+372	0174	Command	
+373	0175	Command	
+374	0176	Command	
+375	0177	Command	
+376	0178	Element Zero	
+377	0179	Mute Ray	
+378	017A	Quad Converge	
+379	017B	Control	
+380	017C	Unerring Justice	
+381	017D	Nebula Oculus	
+382	017E	Quake	
+383	017F	Bewildering Fog	
+384	0180	Bewildering Fog	
+385	0181	Thousand Curses	
+386	0182	World's End	
+387	0183	Terror Voice	
+388	0184	Control	
+389	0185	Fury of Yasogami	
+390	0186	Bewildering Fog	
+391	0187	Summons to Yomi	
+392	0188	Kuro Ikazuchi	
+393	0189	Oho Ikazuchi	
+394	018A	Megidolaon	
+395	018B	Thousand Curses	
+396	018C	18C	
+397	018D	18D	
+398	018E	18E	
+399	018F	18F	
+400	0190	190	
+401	0191	191	
+402	0192	192	
+403	0193	193	
+404	0194	194	
+405	0195	195	
+406	0196	196	
+407	0197	197	
+408	0198	198	
+409	0199	199	
+410	019A	19A	
+411	019B	19B	
+412	019C	19C	
+413	019D	19D	
+414	019E	19E	
+415	019F	19F	
+416	01A0	1A0	
+417	01A1	1A1	
+418	01A2	1A2	
+419	01A3	1A3	
+420	01A4	1A4	
+421	01A5	1A5	
+422	01A6	1A6	
+423	01A7	1A7	
+424	01A8	1A8	
+425	01A9	1A9	
+426	01AA	1AA	
+427	01AB	1AB	
+428	01AC	1AC	
+429	01AD	1AD	
+430	01AE	1AE	
+431	01AF	1AF	
+432	01B0	1B0	
+433	01B1	1B1	
+434	01B2	1B2	
+435	01B3	1B3	
+436	01B4	1B4	
+437	01B5	1B5	
+438	01B6	1B6	
+439	01B7	1B7	
+440	01B8	Snow Flower Honey	
+441	01B9	Revival Rope	
+442	01BA	Sentou Seed	
+443	01BB	Sentou Petal	
+444	01BC	Sentou Fruit	
+445	01BD	Fire Bell	
+446	01BE	Ice Bell	
+447	01BF	Wind Bell	
+448	01C0	Lightning Bell	
+449	01C1	Flame Dotaku	
+450	01C2	Frigid Dotaku	
+451	01C3	Gale Dotaku	
+452	01C4	Bolt Dotaku	
+453	01C5	1C5	
+454	01C6	1C6	
+455	01C7	1C7	
+456	01C8	1C8	
+457	01C9	1C9	
+458	01CA	1CA	
+459	01CB	1CB	
+460	01CC	1CC	
+461	01CD	1CD	
+462	01CE	1CE	
+463	01CF	1CF	
+464	01D0	1D0	
+465	01D1	1D1	
+466	01D2	1D2	
+467	01D3	1D3	
+468	01D4	1D4	
+469	01D5	1D5	
+470	01D6	1D6	
+471	01D7	1D7	
+472	01D8	Resist Physical	
+473	01D9	Null Physical	
+474	01DA	Repel Physical	
+475	01DB	Absorb Physical	
+476	01DC	Resist Fire	
+477	01DD	Null Fire	
+478	01DE	Repel Fire	
+479	01DF	Absorb Fire	
+480	01E0	Resist Ice	
+481	01E1	Null Ice	
+482	01E2	Repel Ice	
+483	01E3	Absorb Ice	
+484	01E4	Resist Elec	
+485	01E5	Null Elec	
+486	01E6	Repel Elec	
+487	01E7	Absorb Elec	
+488	01E8	Resist Wind	
+489	01E9	Null Wind	
+490	01EA	Repel Wind	
+491	01EB	Absorb Wind	
+492	01EC	Resist Light	
+493	01ED	Null Light	
+494	01EE	Repel Light	
+495	01EF	Resist Dark	
+496	01F0	Null Dark	
+497	01F1	Repel Dark	
+498	01F2	Null Panic	
+499	01F3	Null Exhaust	
+500	01F4	Null Mute	
+501	01F5	Null Fear	
+502	01F6	Null Rage	
+503	01F7	Null Poison	
+504	01F8	Null Dizzy	
+505	01F9	Null Enervate	
+506	01FA	Unshaken Will	
+507	01FB	Masakados	
+508	01FC	Dodge Physical	
+509	01FD	Evade Physical	
+510	01FE	Dodge Fire	
+511	01FF	Evade Fire	
+512	0200	Dodge Ice	
+513	0201	Evade Ice	
+514	0202	Dodge Wind	
+515	0203	Evade Wind	
+516	0204	Dodge Elec	
+517	0205	Evade Elec	
+518	0206	Angelic Grace	
+519	0207	Fire Boost	
+520	0208	Fire Amp	
+521	0209	Ice Boost	
+522	020A	Ice Amp	
+523	020B	Elec Boost	
+524	020C	Elec Amp	
+525	020D	Wind Boost	
+526	020E	Wind Amp	
+527	020F	Certain Escape	
+528	0210	HP Up 1	
+529	0211	HP Up 2	
+530	0212	HP Up 3	
+531	0213	SP Up 1	
+532	0214	SP Up 2	
+533	0215	SP Up 3	
+534	0216	Counter	
+535	0217	Counterstrike	
+536	0218	High Counter	
+537	0219	Regenerate 1	
+538	021A	Regenerate 2	
+539	021B	Regenerate 3	
+540	021C	Invigorate 1	
+541	021D	Invigorate 2	
+542	021E	Invigorate 3	
+543	021F	Growth 1	
+544	0220	Growth 2	
+545	0221	Growth 3	
+546	0222	Auto-Tarukaja	
+547	0223	Auto-Rakukaja	
+548	0224	Auto-Sukukaja	
+549	0225	Alertness	
+550	0226	Sharp Student	
+551	0227	Apt Pupil	
+552	0228	Ali Dance	
+553	0229	Firm Stance	
+554	022A	Spell Master	
+555	022B	Arms Master	
+556	022C	HP Favor	
+557	022D	SP Favor	
+558	022E	Divine Grace	
+559	022F	Endure	
+560	0230	Enduring Soul	
+561	0231	Survive Light	
+562	0232	Survive Dark	
+563	0233	Auto-Maraku	
+564	0234	Auto-Mataru	
+565	0235	Auto-Masuku	
+566	0236	Panic Boost	
+567	0237	Poison Boost	
+568	0238	Exhaust Boost	
+569	0239	Silence Boost	
+570	023A	Fear Boost	
+571	023B	Rage Boost	
+572	023C	Dizzy Boost	
+573	023D	Enervate Boost	
+574	023E	Ailment Boost	
+575	023F	Hama Boost	
+576	0240	Mudo Boost	
+577	0241	Endure Light	
+578	0242	Endure Dark	
+579	0243	Cool Breeze	
+580	0244	Victory Cry	
+581	0245	Resist Poison	
+582	0246	Resist Panic	
+583	0247	Resist Fear	
+584	0248	Resist Exhaust	
+585	0249	Resist Enervate	
+586	024A	Resist Rage	
+587	024B	Resist Dizzy	
+588	024C	Resist Mute	
+589	024D	HP Amp	
+590	024E	SP Amp	
+591	024F	Fast Heal	
+592	0250	Insta-Heal	
+593	0251	Infinite Endure	
+594	0252	Izanami Endure	
+595	0253	Alienation Wall	
+596	0254	Blank	
+597	0255	Blank	
+598	0256	Blank	
+599	0257	Blank	
+600	0258	Blank	
+601	0259	Blank	
+602	025A	Blank	
+603	025B	Blank	
+604	025C	Blank	
+605	025D	Blank	
+606	025E	Mudo	
+607	025F	Blank	
+608	0260	Blank	
+609	0261	Blank	
+610	0262	Blank	
+611	0263	Blank	
+612	0264	Blank	
+613	0265	Blank	
+614	0266	Blank	
+615	0267	Blank	
+616	0268	Blank	
+617	0269	Blank	
+618	026A	Blank	
+619	026B	Blank	
+620	026C	Blank	
+621	026D	Blank	
+622	026E	Blank	
+623	026F	Blank	

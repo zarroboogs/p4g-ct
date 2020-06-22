@@ -1,0 +1,369 @@
+id	idh	name	tag
+0	0000	000	BLN
+1	0001	Cowardly Maya	Unused
+2	0002	Selfish Basalt	
+3	0003	Rainy Sister 4	Rain
+4	0004	blank	BLN
+5	0005	Magic Hand	
+6	0006	Dancing Hand	
+7	0007	Killing Hand	
+8	0008	Almighty Hand	
+9	0009	Laughing Table	
+10	000A	Crying Table	
+11	000B	Angry Table	
+12	000C	Sleeping Table	
+13	000D	Magical Magus	
+14	000E	Wondrous Magus	
+15	000F	Prime Magus	
+16	0010	Grand Magus	
+17	0011	Lying Hablerie	
+18	0012	Forgotten Hablerie	
+19	0013	Flattering Hablerie	
+20	0014	Agitating Hablerie	
+21	0015	Merciless Maya	Unused
+22	0016	Autonomic Basalt	
+23	0017	Rainy Brother 4	Rain
+24	0018	blank	BLN
+25	0019	Cloudgirl Pot	Rain
+26	001A	Rainy Pot	Rain
+27	001B	Yearning Pot	
+28	001C	Mistress Pot	
+29	001D	Spurious Book	
+30	001E	Maniacal Book	
+31	001F	Silent Book	
+32	0020	Wrathful Book	
+33	0021	Tranquil Idol	
+34	0022	Liberating Idol	
+35	0023	Leading Idol	
+36	0024	Vehement Idol	
+37	0025	Primitive Idol	
+38	0026	Calm Pesce	
+39	0027	Pursuing Pesce	
+40	0028	Truth Pesce	
+41	0029	Revelation Pesce	
+42	002A	Frivolous Maya	Unused
+43	002B	Idle Basalt	
+44	002C	Rainy Sister 3	Rain
+45	002D	blank	BLN
+46	002E	Venus Eagle	
+47	002F	Dark Eagle	
+48	0030	Jupiter Eagle	
+49	0031	Eternal Eagle	
+50	0032	Creation Relic	
+51	0033	Constancy Relic	
+52	0034	Growth Relic	
+53	0035	Change Relic	
+54	0036	Elegant Mother	
+55	0037	Regal Mother	
+56	0038	Pistil Mother	
+57	0039	Divine Mother	
+58	003A	Secret Bambino	
+59	003B	Blooming Bambino	
+60	003C	Avarice Bambino	
+61	003D	Free Bambino	
+62	003E	Haughty Maya	Unused
+63	003F	Large Basalt	
+64	0040	Rainy Brother 3	Rain|Bugged
+65	0041	blank	BLN
+66	0042	Grave Beetle	
+67	0043	Adamant Beetle	
+68	0044	Strength Beetle	
+69	0045	Emperor Beetle	
+70	0046	Burning Beetle	
+71	0047	Avenger Knight	
+72	0048	Champion Knight	
+73	0049	Hell Knight	
+74	004A	Intrepid Knight	
+75	004B	Rainy Castle	Rain
+76	004C	Power Castle	
+77	004D	Raindrop Castle	Rain
+78	004E	King Castle	
+79	004F	Positive King	
+80	0050	Egotistical King	
+81	0051	Great King	
+82	0052	Brilliant King	
+83	0053	Indolent Maya	Unused
+84	0054	Dependent Basalt	
+85	0055	Rainy Sister 2	Rain
+86	0056	blank	BLN
+87	0057	Trance Twins	
+88	0058	Killer Twins	
+89	0059	Rainbow Twins	Rain
+90	005A	Crazy Twins	
+91	005B	Corrupt Tower	
+92	005C	Dogmatic Tower	
+93	005D	Apostate Tower	
+94	005E	Fanatic Tower	
+95	005F	Grudge Tower	
+96	0060	Blue Sigil	
+97	0061	Red Sigil	
+98	0062	Green Sigil	
+99	0063	Purple Sigil	
+100	0064	Bribed Fuzz	
+101	0065	Persistent Fuzz	
+102	0066	Monomaniac Fuzz	
+103	0067	Chaos Fuzz	
+104	0068	Insidious Maya	Unused
+105	0069	Anguish Basalt	
+106	006A	Rainy Brother 2	Rain
+107	006B	blank	BLN
+108	006C	Monopolizing Cupid	
+109	006D	Blind Cupid	
+110	006E	Devoted Cupid	
+111	006F	Gracious Cupid	
+112	0070	Soul Dancer	
+113	0071	Ardent Dancer	
+114	0072	Royal Dancer	
+115	0073	Natural Dancer	
+116	0074	Harem Dancer	
+117	0075	Lustful Snake	
+118	0076	Immoral Snake	
+119	0077	Carnal Snake	
+120	0078	Amorous Snake	
+121	0079	Stoic Snake	
+122	007A	Whimsical Papillon	
+123	007B	Finicky Papillon	
+124	007C	Fickle Papillon	
+125	007D	Pure Papillon	
+126	007E	Ill-fated Maya	Unused
+127	007F	Insolent Basalt	
+128	0080	Rainy Sister 1	Rain
+129	0081	blank	BLN
+130	0082	Rain Wheel	Rain
+131	0083	Mach Wheel	
+132	0084	Brave Wheel	
+133	0085	Battle Wheel	
+134	0086	Wild Drive	
+135	0087	Killer Drive	
+136	0088	Slaughter Drive	
+137	0089	Rampage Drive	
+138	008A	Arcane Turret	
+139	008B	Scarlet Turret	
+140	008C	Wicked Turret	
+141	008D	Hallowed Turret	
+142	008E	Spastic Turret	
+143	008F	Berserk Turret	
+144	0090	Dismayed Panzer	
+145	0091	Rash Panzer	
+146	0092	Conceited Panzer	
+147	0093	Ptarmigan Panzer	
+148	0094	Visceral Maya	Unused
+149	0095	Source Basalt	
+150	0096	Rainy Brother 1	Rain
+151	0097	blank	BLN
+152	0098	Rain Leg Musha	Rain
+153	0099	Rain End Musha	Rain
+154	009A	Raindrop Musha	Rain
+155	009B	Rain Wind Musha	Rain
+156	009C	Daring Gigas	
+157	009D	Beastly Gigas	
+158	009E	Furious Gigas	
+159	009F	Mythical Gigas	
+160	00A0	Immortal Gigas	
+161	00A1	Nizam Beast	
+162	00A2	Enslaved Beast	
+163	00A3	Mighty Beast	
+164	00A4	Nemean Beast	
+165	00A5	El Dorado Beast	
+166	00A6	Inviting Nyogo	
+167	00A7	Blossom Nyogo	
+168	00A8	Valuing Nyogo	
+169	00A9	Silent Nyogo	
+170	00AA	Desirous Maya	Unused
+171	00AB	Submissive Basalt	Unused
+172	00AC	Rainy Sister 2	Rain|Unused
+173	00AD	blank	BLN
+174	00AE	Black Raven	
+175	00AF	Vicious Raven	
+176	00B0	Sonic Raven	
+177	00B1	Amenti Raven	
+178	00B2	Phantom Mage	
+179	00B3	Phantom Master	
+180	00B4	Phantom Lord	
+181	00B5	Phantom King	
+182	00B6	Phantom Hero	
+183	00B7	Death Seeker	
+184	00B8	Fate Seeker	
+185	00B9	Noble Seeker	
+186	00BA	Acheron Seeker	
+187	00BB	Shallow Okina	
+188	00BC	Reckless Okina	
+189	00BD	Reformed Okina	
+190	00BE	Moon Okina	
+191	00BF	Imprudent Maya	Unused
+192	00C0	Accidental Basalt	Unused
+193	00C1	Rainy Brother 2	Rain|Unused
+194	00C2	blank	BLN
+195	00C3	Bronze Dice	
+196	00C4	Iron Dice	
+197	00C5	Silver Dice	
+198	00C6	Platinum Dice	
+199	00C7	Mind Dice	
+200	00C8	Curse Dice	
+201	00C9	Death Dice	
+202	00CA	Reckoning Dice	
+203	00CB	Flowing Sand	
+204	00CC	Perpetual Sand	
+205	00CD	Infinite Sand	
+206	00CE	Eternal Sand	
+207	00CF	Miss Gene	
+208	00D0	Fail Gene	
+209	00D1	Happy Gene	
+210	00D2	Next Gene	
+211	00D3	Bigoted Maya	Unused
+212	00D4	Convicted Basalt	Unused
+213	00D5	Rainy Sister 1	Rain|Unused
+214	00D6	blank	BLN
+215	00D7	Justice Sword	
+216	00D8	Conviction Sword	
+217	00D9	Judgment Sword	
+218	00DA	Doom Sword	
+219	00DB	Heat Balance	
+220	00DC	Sky Balance	
+221	00DD	World Balance	
+222	00DE	Light Balance	
+223	00DF	Order Giant	
+224	00E0	Stasis Giant	
+225	00E1	Harmony Giant	
+226	00E2	Void Giant	
+227	00E3	Steel Machine	
+228	00E4	Dominating Machine	
+229	00E5	Solemn Machine	
+230	00E6	Heartless Machine	
+231	00E7	Devious Maya	Unused
+232	00E8	Oppressive Basalt	Unused
+233	00E9	Rainy Brother 1	Rain|Unused
+234	00EA	blank	BLN
+235	00EB	Minotaur IV	
+236	00EC	Minotaur III	
+237	00ED	Minotaur II	
+238	00EE	Minotaur I	
+239	00EF	Neo Minotaur	
+240	00F0	Jotun of Power	
+241	00F1	Jotun of Blood	
+242	00F2	Jotun of Evil	
+243	00F3	Jotun of Grief	
+244	00F4	Mighty Cyclops	
+245	00F5	Mad Cyclops	
+246	00F6	Fierce Cyclops	
+247	00F7	Chaos Cyclops	
+248	00F8	Brilliant Cyclops	
+249	00F9	Rebellious Cyclops	
+250	00FA	Protective Lexy	
+251	00FB	Dry Dexy	
+252	00FC	Earnest Calocy	
+253	00FD	Successful Junecy	
+254	00FE	Test Rare	Unused
+255	00FF	blank	BLN
+256	0100	Shadow Yosuke	Boss
+257	0101	Shadow Chie	Boss
+258	0102	Shadow Yukiko	Boss
+259	0103	Shadow Kanji	Boss
+260	0104	Shadow Rise	Boss
+261	0105	Shadow Teddie	Boss
+262	0106	Shadow Mitsuo	Boss
+263	0107	Shadow Naoto	Boss
+264	0108	Kunino-sagiri	Boss
+265	0109	Adachi	Boss
+266	010A	Ameno-sagiri	Boss
+267	010B	Izanami	Boss
+268	010C	Slipping Hablerie	
+269	010D	Charming Prince	Boss Summon
+270	010E	Izanami-no-Okami	Boss
+271	010F	Mitsuo the Hero	Boss
+272	0110	Nice Guy	Boss
+273	0111	Tough Guy	Boss
+274	0112	Margaret	Boss
+275	0113	???	
+276	0114	Kusumi-no-Okami	Boss
+277	0115	Marie	Boss
+278	0116	blank	BLN
+279	0117	blank	BLN
+280	0118	blank	BLN
+281	0119	blank	BLN
+282	011A	blank	BLN
+283	011B	blank	BLN
+284	011C	blank	BLN
+285	011D	blank	BLN
+286	011E	blank	BLN
+287	011F	blank	BLN
+288	0120	The Reaper	Reaper
+289	0121	The Reaper	Reaper
+290	0122	The Reaper	Reaper
+291	0123	The Reaper	Reaper
+292	0124	The Reaper	Reaper
+293	0125	The Reaper	Reaper
+294	0126	The Reaper	Reaper
+295	0127	The Reaper	Reaper
+296	0128	The Reaper	Reaper
+297	0129	The Reaper	Reaper
+298	012A	Wealth Hand	Rare
+299	012B	Treasure Hand	Rare
+300	012C	Supreme Hand	Rare
+301	012D	Opulent Hand	Rare
+302	012E	Luxury Hand	Rare
+303	012F	Glorious Hand	Rare
+304	0130	Contrarian King	Boss Bonus
+305	0131	Intolerant Officer	Boss Bonus
+306	0132	Momentary Child	Boss Bonus
+307	0133	Escapist Soldier	Boss Bonus
+308	0134	Extreme Vessel	Boss Bonus
+309	0135	Lost Okina	Boss Bonus
+310	0136	Avenger Knight	Boss Mini
+311	0137	Daring Gigas	Boss Mini
+312	0138	Amorous Snake	Boss Mini
+313	0139	Killing Hand	Boss Mini
+314	013A	Dominating Machine	Boss Mini
+315	013B	World Balance	Boss Mini
+316	013C	Chaos Fuzz	Boss Mini
+317	013D	Envious Giant	Boss Mini
+318	013E	Neo Minotaur	Boss Mini
+319	013F	Sleeping Table	Boss Mini
+320	0140	blank	BLN
+321	0141	blank	BLN
+322	0142	blank	BLN
+323	0143	blank	BLN
+324	0144	blank	BLN
+325	0145	blank	BLN
+326	0146	blank	BLN
+327	0147	blank	BLN
+328	0148	Happiness Hand	Rare
+329	0149	Isolated Hand	Rare
+330	014A	blank	BLN
+331	014B	blank	BLN
+332	014C	blank	BLN
+333	014D	blank	BLN
+334	014E	blank	BLN
+335	014F	blank	BLN
+336	0150	Gauntlet Hand	
+337	0151	Reverent Table	
+338	0152	Lying Hablerie	
+339	0153	Wheeled Bambino	
+340	0154	Praying Papillon	
+341	0155	Emaciated Garcy	
+342	0156	Execution Sword	
+343	0157	Cursed Woman's Pot	
+344	0158	Stupendous Relic	
+345	0159	Gorgeous King	Boss Mini
+346	015A	Spectral Raven	
+347	015B	Praying Nyogo	
+348	015C	Superstitious Okina	
+349	015D	Lawless Fuzz	
+350	015E	Stone Panzer	
+351	015F	Harmonious Giant	
+352	0160	Snowfall Musha	
+353	0161	Calm Machine	
+354	0162	Clear Sky Musha	
+355	0163	Indignant Machine	
+356	0164	Heaven's Giant	Boss Mini
+357	0165	blank	BLN
+358	0166	blank	BLN
+359	0167	blank	BLN
+360	0168	blank	BLN
+361	0169	blank	BLN
+362	016A	blank	BLN
+363	016B	blank	BLN
+364	016C	blank	BLN
+365	016D	blank	BLN
+366	016E	blank	BLN
+367	016F	blank	BLN

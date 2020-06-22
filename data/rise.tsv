@@ -1,0 +1,646 @@
+id	idh	d	idx	byte	bit	name
+0	0000	BTL_MES_H105_001_001	0	0	0	What is this thing!? It feels really bad...
+1	0001	BTL_MES_H105_002_001	1	0	4	Ooh, a rare one! Don't let it get away!
+2	0002	BTL_MES_H105_003_001	2	1	0	Oh, be careful! This one's strong!
+3	0003	BTL_MES_H105_003_002	2	1	1	Hang on, 'cause this one's gonna be tough!
+4	0004	BTL_MES_H105_003_003	2	1	2	Yikes, what's with this thing!? Don't give in!
+5	0005	BTL_MES_H105_004_001	3	1	4	There's one enemy! Hang in there!
+6	0006	BTL_MES_H105_004_002	3	1	5	One enemy on the field! You can do it!
+7	0007	BTL_MES_H105_005_001	4	2	0	There are two enemies! Careful now!
+8	0008	BTL_MES_H105_005_002	4	2	1	Two enemies on the field! Crush 'em!
+9	0009	BTL_MES_H105_006_001	5	2	4	There are three enemies! Don't get cocky!
+10	000A	BTL_MES_H105_006_002	5	2	5	Three enemies on the field! Be careful!
+11	000B	BTL_MES_H105_007_001	6	3	0	Four enemies on the field! Get psyched!
+12	000C	BTL_MES_H105_007_002	6	3	1	There are four enemies! Keep your guard up!
+13	000D	BTL_MES_H105_008_001	7	3	4	F-Five enemies on the field! Watch yourself!
+14	000E	BTL_MES_H105_008_002	7	3	5	There are five enemies! Don't let 'em get you!
+15	000F	BTL_MES_H105_009_001	8	4	0	There's one enemy! You get a free hit!
+16	0010	BTL_MES_H105_009_002	8	4	1	One enemy! Take your free hit!
+17	0011	BTL_MES_H105_010_001	9	4	4	There are two enemies! Go for a free hit!
+18	0012	BTL_MES_H105_010_002	9	4	5	Two enemies, but you have the advantage!
+19	0013	BTL_MES_H105_011_001	10	5	0	There's three enemies! They're totally open!
+20	0014	BTL_MES_H105_011_002	10	5	1	Three enemies! We have the initiative!
+21	0015	BTL_MES_H105_012_001	11	5	4	There are four enemies! You get to go first!
+22	0016	BTL_MES_H105_012_002	11	5	5	Four enemies! They're wiiiide open!
+23	0017	BTL_MES_H105_013_001	12	6	0	There are five enemies! Go for a first strike!
+24	0018	BTL_MES_H105_013_002	12	6	1	Five enemies! You caught 'em off guard!
+25	0019	BTL_MES_H105_014_001	13	6	4	One enemy! I-It caught us off guard!?
+26	001A	BTL_MES_H105_014_002	13	6	5	Eek, an ambush! There's one enemy!
+27	001B	BTL_MES_H105_015_001	14	7	0	Yikes, an ambush!? There are two enemies!
+28	001C	BTL_MES_H105_015_002	14	7	1	Two enemies ambushed you! Hold on!
+29	001D	BTL_MES_H105_016_001	15	7	4	Be careful! Three enemies ambushed you!
+30	001E	BTL_MES_H105_016_002	15	7	5	Three enemies! They got the drop on you!
+31	001F	BTL_MES_H105_017_001	16	8	0	Enemy ambush! Four of 'em!
+32	0020	BTL_MES_H105_017_002	16	8	1	They caught you off guard!? Four enemies!
+33	0021	BTL_MES_H105_018_001	17	8	4	Five enemies ambushed you! Hold on!
+34	0022	BTL_MES_H105_018_002	17	8	5	Huh, an ambush? B-By five enemies!?
+35	0023	BTL_MES_H105_019_001	18	9	0	Another enemy appeared! One, to be exact!
+36	0024	BTL_MES_H105_019_002	18	9	1	One more on the enemy side! Hang in there!
+37	0025	BTL_MES_H105_020_001	19	9	4	Huh, more enemies!? Two, to be exact!
+38	0026	BTL_MES_H105_020_002	19	9	5	Two reinforcements on the enemy's side!
+39	0027	BTL_MES_H105_021_001	20	10	0	What!? Again? Three more enemies for you!
+40	0028	BTL_MES_H105_021_002	20	10	1	Three more on the enemy side! Keep it up!
+41	0029	BTL_MES_H105_022_001	21	10	4	Is this for real!? Four new enemies!
+42	002A	BTL_MES_H105_022_002	21	10	5	No way! Four more enemies are here!
+43	002B	BTL_MES_H105_023_001	22	11	0	Enemy reinforcements! Huh--Five!? The heck!?
+44	002C	BTL_MES_H105_023_002	22	11	1	Five enemies appeared! Gee, this is nuts!
+45	002D	BTL_MES_H105_024_001	23	11	4	Careful, it's immune to physical attacks!
+46	002E	BTL_MES_H105_024_002	23	11	5	Look out, it's immune to physical attacks!
+47	002F	BTL_MES_H105_025_001	24	12	0	Be careful, there's an enemy immune to fire!
+48	0030	BTL_MES_H105_025_002	24	12	1	Hm, watch it! That one's immune to fire!
+49	0031	BTL_MES_H105_026_001	25	12	4	Be careful, there's an ice-immune enemy!
+50	0032	BTL_MES_H105_026_002	25	12	5	Whoa there! That one's immune to ice!
+51	0033	BTL_MES_H105_027_001	26	13	0	Careful, that enemy's immune to wind!
+52	0034	BTL_MES_H105_027_002	26	13	1	Looks like that one's immune to wind!
+53	0035	BTL_MES_H105_028_001	27	13	4	Careful, it's immune to electricity!
+54	0036	BTL_MES_H105_028_002	27	13	5	Watch it, that one's immune to electricity!
+55	0037	BTL_MES_H105_029_001	28	14	0	Be careful, there's an enemy immune to Light!
+56	0038	BTL_MES_H105_029_002	28	14	1	Oh, be careful! Light's no good on this one!
+57	0039	BTL_MES_H105_030_001	29	14	4	Uh-oh, that one's immune to Darkness!
+58	003A	BTL_MES_H105_030_002	29	14	5	Oh, that's not good... Darkness won't work!
+59	003B	BTL_MES_H105_031_001	30	15	0	Sweet! It's weak to physical attacks!
+60	003C	BTL_MES_H105_031_002	30	15	1	Ooh, that one doesn't like physical attacks!
+61	003D	BTL_MES_H105_032_001	31	15	4	That enemy's weak to fire! Keep it up!
+62	003E	BTL_MES_H105_032_002	31	15	5	Hey, the enemy's weak to fire! That's hot.
+63	003F	BTL_MES_H105_033_001	32	16	0	That enemy's weak to ice! Cool it down!
+64	0040	BTL_MES_H105_033_002	32	16	1	Cool, there's an enemy weak to ice!
+65	0041	BTL_MES_H105_034_001	33	16	4	That enemy's weak to wind! Blow 'em away!
+66	0042	BTL_MES_H105_034_002	33	16	5	Nice, there's an enemy weak to wind!
+67	0043	BTL_MES_H105_035_001	34	17	0	It's weak to electricity! Zap 'em!
+68	0044	BTL_MES_H105_035_002	34	17	1	Whoa, we got one weak to electricity!
+69	0045	BTL_MES_H105_036_001	35	17	4	It's weak to Light! Shine on!
+70	0046	BTL_MES_H105_036_002	35	17	5	Ah, there's an enemy weak to Light!
+71	0047	BTL_MES_H105_037_001	36	18	0	The enemy's weak to Darkness! It's doomed!
+72	0048	BTL_MES_H105_037_002	36	18	1	Oho, so that one's weak to Darkness!
+73	0049	BTL_MES_H105_038_001	37	18	4	No way! More of you are injured!?
+74	004A	BTL_MES_H105_039_001	38	19	0	Yosuke-senpai is injured! This is bad!
+75	004B	BTL_MES_H105_040_001	39	19	4	Eek, Chie-senpai! C'mon, get up!
+76	004C	BTL_MES_H105_041_001	40	20	0	Yukiko-senpai, no! Someone heal her!
+77	004D	BTL_MES_H105_042_001	41	20	4	K-Kanji's injured! C'mon, suck it up!
+78	004E	BTL_MES_H105_043_001	42	21	0	Naoto-kun collapsed! This isn't good!
+79	004F	BTL_MES_H105_044_001	43	21	4	Yikes! Teddie! Someone heal him!
+80	0050	BTL_MES_H105_045_001	44	22	0	Oh no... Hang in there, everyone!
+81	0051	BTL_MES_H105_046_001	45	22	4	S-Senpai!? Are you okay!?
+82	0052	BTL_MES_H105_047_001	46	23	0	Eek, Yosuke-senpai! Someone heal him!
+83	0053	BTL_MES_H105_048_001	47	23	4	Ch-Chie-senpai! Quick, someone heal her!
+84	0054	BTL_MES_H105_049_001	48	24	0	Yukiko-senpai needs help!
+85	0055	BTL_MES_H105_050_001	49	24	4	Whoa, Kanji! Are you okay!?
+86	0056	BTL_MES_H105_051_001	50	25	0	*gasp* Naoto-kun! Oh, this isn't good...
+87	0057	BTL_MES_H105_052_001	51	25	4	Teddie, are you okay? Someone heal him!
+88	0058	BTL_MES_H105_053_001	52	26	0	Yikes, that's not good! You need to regroup!
+89	0059	BTL_MES_H105_054_001	53	26	4	You okay, Senpai? Hang in there!
+90	005A	BTL_MES_H105_055_001	54	27	0	Y-Yosuke-senpai! Oh man, oh man...
+91	005B	BTL_MES_H105_056_001	55	27	4	Chie-senpai's been hit! Hang in there!
+92	005C	BTL_MES_H105_057_001	56	28	0	Yukiko-senpai! Are you okay!?
+93	005D	BTL_MES_H105_058_001	57	28	4	Kanji's been hit! Someone help him!
+94	005E	BTL_MES_H105_059_001	58	29	0	Hang tight, Naoto-kun! Hurry and get back up!
+95	005F	BTL_MES_H105_060_001	59	29	4	Teddie, no! Can someone help him!?
+96	0060	BTL_MES_H105_061_001	60	30	0	Ohhh, this is bad... Very, very bad...!
+97	0061	BTL_MES_H105_062_001	61	30	4	Senpai? Can you hear me? Wake up, Senpai!
+98	0062	BTL_MES_H105_063_001	62	31	0	Yosuke-senpai? Wake up!
+99	0063	BTL_MES_H105_064_001	63	31	4	C'mon, Chie-senpai, wake up!
+100	0064	BTL_MES_H105_065_001	64	32	0	Yukiko-senpai? Wake up, please!
+101	0065	BTL_MES_H105_066_001	65	32	4	Hey, Kanji, wake up! I said WAKE UP!
+102	0066	BTL_MES_H105_067_001	66	33	0	Naoto-kun! Naoto-kun! C'mon, wake up!
+103	0067	BTL_MES_H105_068_001	67	33	4	Teddie, wake up! Get a hold of yourself!
+104	0068	BTL_MES_H105_069_001	68	34	0	Ack! Is everyone okay?
+105	0069	BTL_MES_H105_070_001	69	34	4	Eek, ow! Senpai!?
+106	006A	BTL_MES_H105_071_001	70	35	0	Yosuke-senpai, no!
+107	006B	BTL_MES_H105_072_001	71	35	4	Chie-senpai, no!
+108	006C	BTL_MES_H105_073_001	72	36	0	Yukiko-senpai, no!
+109	006D	BTL_MES_H105_074_001	73	36	4	Kanji, no!
+110	006E	BTL_MES_H105_075_001	74	37	0	Naoto-kun, no!
+111	006F	BTL_MES_H105_076_001	75	37	4	Teddie, no!
+112	0070	BTL_MES_H105_077_001	76	38	0	Ooh, awesome job, everyone! Great work!
+113	0071	BTL_MES_H105_078_001	77	38	4	*squeal* Senpai! That was so cool!
+114	0072	BTL_MES_H105_079_001	78	39	0	Ooh, nice move, Yosuke-senpai!
+115	0073	BTL_MES_H105_080_001	79	39	4	Just what I'd expect, Chie-senpai! Whoo!
+116	0074	BTL_MES_H105_081_001	80	40	0	That's amazing, Yukiko- senpai! Keep it up!
+117	0075	BTL_MES_H105_082_001	81	40	4	Whoa, Kanji! That was great!
+118	0076	BTL_MES_H105_083_001	82	41	0	Good move, Naoto-kun! You're on a roll!
+119	0077	BTL_MES_H105_084_001	83	41	4	Hey, not bad, Teddie! Keep it up!
+120	0078	BTL_MES_H105_085_001	84	42	0	Aw, it ran away! Four enemies remaining!
+121	0079	BTL_MES_H105_086_001	85	42	4	The enemy's running away! We can do this!
+122	007A	BTL_MES_H105_087_001	86	43	0	The enemy ran away! There's two left!
+123	007B	BTL_MES_H105_088_001	87	43	4	The enemy ran away! Now's your chance!
+124	007C	BTL_MES_H105_089_001	88	44	0	Hey, it ran away! The nerve of that thing!
+125	007D	BTL_MES_H105_090_001	89	44	4	Gee, it's like an endless stream of 'em!
+126	007E	BTL_MES_H105_091_001	90	45	0	It's calling backup! Hurry and defeat it!
+127	007F	BTL_MES_H105_092_001	91	45	4	What, more of them!? Gee!
+128	0080	BTL_MES_H105_093_001	92	46	0	What's its problem!? More incoming!
+129	0081	BTL_MES_H105_094_001	93	46	4	*gasp* It got back up! Defeat it, fast!
+130	0082	BTL_MES_H105_095_001	94	47	0	Th-That's not fair! It's healing itself!
+131	0083	BTL_MES_H105_096_001	95	47	4	I think you can escape now! Are you ready?
+132	0084	BTL_MES_H105_097_001	96	48	0	Yes, he came back! Yosuke-senpai's back!
+133	0085	BTL_MES_H105_098_001	97	48	4	Alright! Welcome back, Chie-senpai!
+134	0086	BTL_MES_H105_099_001	98	49	0	Alright, Yukiko- senpai's back!
+135	0087	BTL_MES_H105_100_001	99	49	4	Kanji's back!
+136	0088	BTL_MES_H105_101_001	100	50	0	Naoto-kun's back!
+137	0089	BTL_MES_H105_102_001	101	50	4	Teddie came back!
+138	008A	BTL_MES_H105_103_001	102	51	0	There's no opening for you to run away!
+139	008B	BTL_MES_H105_104_001	103	51	4	Just hang on... I'll find you an opening!
+140	008C	BTL_MES_H105_105_001	104	52	0	Get up, Senpai! Please get back up!
+141	008D	BTL_MES_H105_106_001	105	52	4	Yosuke-senpai, get up!
+142	008E	BTL_MES_H105_107_001	106	53	0	Chie-senpai's not coming to! Oh man...
+143	008F	BTL_MES_H105_108_001	107	53	4	Yukiko-senpai can't get back up! C'mon...!
+144	0090	BTL_MES_H105_109_001	108	54	0	C'mon, Kanji, look alive! Get back up!
+145	0091	BTL_MES_H105_110_001	109	54	4	Naoto-kun's unconscious! Stay with us...!
+146	0092	BTL_MES_H105_111_001	110	55	0	Teddie's unconscious! Get up, get up!
+147	0093	BTL_MES_H105_112_001	111	55	4	Senpai, your offense has been lowered!
+148	0094	BTL_MES_H105_113_001	112	56	0	Yosuke-senpai, your offense is down!
+149	0095	BTL_MES_H105_114_001	113	56	4	Chie-senpai, your offense is down!
+150	0096	BTL_MES_H105_115_001	114	57	0	Yukiko-senpai, your offense is down!
+151	0097	BTL_MES_H105_116_001	115	57	4	Kanji, your offense has been lowered!
+152	0098	BTL_MES_H105_117_001	116	58	0	Naoto-kun, your offense is down!
+153	0099	BTL_MES_H105_118_001	117	58	4	Teddie, your offense has been lowered!
+154	009A	BTL_MES_H105_119_001	118	59	0	Senpai, your defense has been lowered!
+155	009B	BTL_MES_H105_120_001	119	59	4	Yosuke-senpai, your defense is down!
+156	009C	BTL_MES_H105_121_001	120	60	0	Chie-senpai, your defense is down!
+157	009D	BTL_MES_H105_122_001	121	60	4	Yukiko-senpai, your defense is down!
+158	009E	BTL_MES_H105_123_001	122	61	0	Kanji, your defense has been lowered!
+159	009F	BTL_MES_H105_124_001	123	61	4	Naoto-kun, your defense is down!
+160	00A0	BTL_MES_H105_125_001	124	62	0	Teddie, your defense has been lowered!
+161	00A1	BTL_MES_H105_126_001	125	62	4	Senpai, your agility has been lowered!
+162	00A2	BTL_MES_H105_127_001	126	63	0	Yosuke-senpai, your agility is down!
+163	00A3	BTL_MES_H105_128_001	127	63	4	Chie-senpai, your agility is down!
+164	00A4	BTL_MES_H105_129_001	128	64	0	Yukiko-senpai, your agility is down!
+165	00A5	BTL_MES_H105_130_001	129	64	4	Kanji, your agility has been lowered!
+166	00A6	BTL_MES_H105_131_001	130	65	0	Naoto-kun, your agility is down!
+167	00A7	BTL_MES_H105_132_001	131	65	4	Teddie, your agility has been lowered!
+168	00A8	BTL_MES_H105_133_001	132	66	0	Five enemies left! Hang in there!
+169	00A9	BTL_MES_H105_133_002	132	66	1	Five of 'em! You're outnumbered...!
+170	00AA	BTL_MES_H105_134_001	133	66	4	Four enemies left! Don't give up!
+171	00AB	BTL_MES_H105_134_002	133	66	5	Four of them! You need to thin 'em out!
+172	00AC	BTL_MES_H105_135_001	134	67	0	Three enemies left! You can win this!
+173	00AD	BTL_MES_H105_135_002	134	67	1	Three of 'em! Don't give up now, okay?
+174	00AE	BTL_MES_H105_136_001	135	67	4	Two enemies left! Don't lower your guard now!
+175	00AF	BTL_MES_H105_136_002	135	67	5	Just two left! C'mon, this fight's not over!
+176	00B0	BTL_MES_H105_137_001	136	68	0	One enemy to go! Keep it up!
+177	00B1	BTL_MES_H105_137_002	136	68	1	Last one! Go for it!
+178	00B2	BTL_MES_H105_138_001	137	68	4	Careful, guys! You're really low on health!
+179	00B3	BTL_MES_H105_139_001	138	69	0	Senpai, you're low on health! Be careful!
+180	00B4	BTL_MES_H105_140_001	139	69	4	Um, Yosuke-senpai, your health is really low.
+181	00B5	BTL_MES_H105_141_001	140	70	0	Guys, Chie-senpai's really hurt!
+182	00B6	BTL_MES_H105_142_001	141	70	4	Shouldn't someone heal Yukiko-senpai...?
+183	00B7	BTL_MES_H105_143_001	142	71	0	You okay there, Kanji? Don't strain yourself!
+184	00B8	BTL_MES_H105_144_001	143	71	4	Naoto-kun's hurt pretty bad. Can you heal her?
+185	00B9	BTL_MES_H105_145_001	144	72	0	Careful, guys, Teddie's health is pretty low.
+186	00BA	BTL_MES_H105_146_001	145	72	4	Senpai! Snap out of it!
+187	00BB	BTL_MES_H105_147_001	146	73	0	Senpai's been poisoned! Can someone cure him?
+188	00BC	BTL_MES_H105_148_001	147	73	4	No, don't get scared! I'm with you!
+189	00BD	BTL_MES_H105_149_001	148	74	0	Calm down, Senpai! Don't lose your cool!
+190	00BE	BTL_MES_H105_150_001	149	74	4	Get up, Senpai! Please get up!
+191	00BF	BTL_MES_H105_151_001	150	75	0	This feels wrong... Hang in there, Senpai!
+192	00C0	BTL_MES_H105_152_001	151	75	4	Someone help Senpai!
+193	00C1	BTL_MES_H105_153_001	152	76	0	Your Persona--!? Senpai, hang in there!
+194	00C2	BTL_MES_H105_154_001	153	76	4	Whew, you're up! Time for a counterattack!
+195	00C3	BTL_MES_H105_155_001	154	77	0	Yosuke-senpai's confused!
+196	00C4	BTL_MES_H105_156_001	155	77	4	Chie-senpai's confused!
+197	00C5	BTL_MES_H105_157_001	156	78	0	Yukiko-senpai's confused!
+198	00C6	BTL_MES_H105_158_001	157	78	4	Kanji's confused! Someone help him!
+199	00C7	BTL_MES_H105_159_001	158	79	0	Naoto-kun's confused! Can someone cure her?
+200	00C8	BTL_MES_H105_160_001	159	79	4	Teddie's confused! Someone cure him!
+201	00C9	BTL_MES_H105_161_001	160	80	0	Yosuke-senpai's poisoned!
+202	00CA	BTL_MES_H105_162_001	161	80	4	Chie-senpai's poisoned!
+203	00CB	BTL_MES_H105_163_001	162	81	0	Yukiko-senpai's poisoned!
+204	00CC	BTL_MES_H105_164_001	163	81	4	Kanji's poisoned!
+205	00CD	BTL_MES_H105_165_001	164	82	0	Uh-oh, Naoto-kun's poisoned!
+206	00CE	BTL_MES_H105_166_001	165	82	4	Oh no, Teddie's poisoned!
+207	00CF	BTL_MES_H105_166_001	165	82	5	Oh no, Teddie's poisoned!
+208	00D0	BTL_MES_H105_167_001	166	83	0	Yosuke-senpai's scared!
+209	00D1	BTL_MES_H105_168_001	167	83	4	Chie-senpai's scared!
+210	00D2	BTL_MES_H105_169_001	168	84	0	Yukiko-senpai's scared!
+211	00D3	BTL_MES_H105_170_001	169	84	4	No! Kanji's scared!
+212	00D4	BTL_MES_H105_171_001	170	85	0	Naoto-kun's scared! Snap out of it!
+213	00D5	BTL_MES_H105_172_001	171	85	4	Teddie's scared! Calm down!
+214	00D6	BTL_MES_H105_173_001	172	86	0	Yosuke-senpai's lost it!
+215	00D7	BTL_MES_H105_174_001	173	86	4	Yikes, Chie-senpai's completely lost it...
+216	00D8	BTL_MES_H105_175_001	174	87	0	Wow, Yukiko-senpai's scary when she's mad...
+217	00D9	BTL_MES_H105_176_001	175	87	4	*gasp* Kanji's gone berserk!
+218	00DA	BTL_MES_H105_177_001	176	88	0	Naoto-kun's pissed off! Try to calm her down!
+219	00DB	BTL_MES_H105_178_001	177	88	4	Teddie's totally pissed off! Calm down!
+220	00DC	BTL_MES_H105_179_001	178	89	0	Yosuke-senpai is dizzy!
+221	00DD	BTL_MES_H105_180_001	179	89	4	Chie-senpai's dizzy!
+222	00DE	BTL_MES_H105_181_001	180	90	0	Yukiko-senpai's dizzy!
+223	00DF	BTL_MES_H105_182_001	181	90	4	Kanji's dizzy! Snap him out of it!
+224	00E0	BTL_MES_H105_183_001	182	91	0	Naoto-kun's unconscious!
+225	00E1	BTL_MES_H105_184_001	183	91	4	Teddie's dizzy! Can you snap him out of it?
+226	00E2	BTL_MES_H105_185_001	184	92	0	They've weakened Yosuke-senpai!
+227	00E3	BTL_MES_H105_186_001	185	92	4	They've weakened Chie-senpai!
+228	00E4	BTL_MES_H105_187_001	186	93	0	They've weakened Yukiko-senpai!
+229	00E5	BTL_MES_H105_188_001	187	93	4	Ohh, this is bad! Kanji's useless!
+230	00E6	BTL_MES_H105_189_001	188	94	0	Naoto-kun's weakened! Please help her!
+231	00E7	BTL_MES_H105_190_001	189	94	4	Whoops... Teddie's gone boneless!
+232	00E8	BTL_MES_H105_191_001	190	95	0	Yosuke-senpai's acting weird!
+233	00E9	BTL_MES_H105_192_001	191	95	4	Chie-senpai's acting weird!
+234	00EA	BTL_MES_H105_193_001	192	96	0	Yukiko-senpai's acting weird!
+235	00EB	BTL_MES_H105_194_001	193	96	4	Kanji's acting weird! Can someone help him?
+236	00EC	BTL_MES_H105_195_001	194	97	0	Naoto-kun's acting weird! Quick, help her!
+237	00ED	BTL_MES_H105_196_001	195	97	4	Teddie's acting weird! You should help him!
+238	00EE	BTL_MES_H105_197_001	196	98	0	Yosuke-senpai's Persona is sealed!
+239	00EF	BTL_MES_H105_198_001	197	98	4	Chie-senpai's Persona is sealed!
+240	00F0	BTL_MES_H105_199_001	198	99	0	Yukiko-senpai's Persona is sealed!
+241	00F1	BTL_MES_H105_200_001	199	99	4	Kanji can't use his Persona!
+242	00F2	BTL_MES_H105_201_001	200	100	0	Naoto-kun can't use her Persona now!
+243	00F3	BTL_MES_H105_202_001	201	100	4	Poor Teddie's Persona is sealed!
+244	00F4	BTL_MES_H105_203_001	202	101	0	Okay, gotcha!
+245	00F5	BTL_MES_H105_204_001	203	101	4	Now's your chance! RUN!
+246	00F6	BTL_MES_H105_205_001	204	102	0	Okay! I'll look for an opening!
+247	00F7	BTL_MES_H105_206_001	205	102	4	I know! I'm still looking!
+248	00F8	BTL_MES_H105_207_001	206	103	0	No good, I can't find you an opening...
+249	00F9	BTL_MES_H105_208_001	207	103	4	This one's strong! Watch yourselves!
+250	00FA	BTL_MES_H105_208_002	207	103	5	It's a strong one! Don't lower your guard!
+251	00FB	BTL_MES_H105_209_001	208	104	0	It's weak to physical attacks! You can do it!
+252	00FC	BTL_MES_H105_209_002	208	104	1	Don't worry, it's weak to physical attacks!
+253	00FD	BTL_MES_H105_210_001	209	104	4	Fire is its weakness! Just keep at it!
+254	00FE	BTL_MES_H105_210_002	209	104	5	Fire is its weakness! I know you can win!
+255	00FF	BTL_MES_H105_211_001	210	105	0	Looks like it's weak to ice. You can win this!
+256	0100	BTL_MES_H105_211_002	210	105	1	It seems weak to ice. It's strong, though!
+257	0101	BTL_MES_H105_212_001	211	105	4	It's weak to wind! Don't let it get you!
+258	0102	BTL_MES_H105_212_002	211	105	5	Whoa, it's a doozy! Wind is its weakness!
+259	0103	BTL_MES_H105_213_001	212	106	0	Electricity is its weakness! Keep at it!
+260	0104	BTL_MES_H105_213_002	212	106	1	You can beat it! It's weak to electricity!
+261	0105	BTL_MES_H105_214_001	213	106	4	Light is its weakness! I believe in you!
+262	0106	BTL_MES_H105_214_002	213	106	5	Whew, it's strong, but it's weak to Light!
+263	0107	BTL_MES_H105_215_001	214	107	0	It's weak to Darkness! I know you can do it!
+264	0108	BTL_MES_H105_215_002	214	107	1	This one's strong, but it's weak to Darkness!
+265	0109	BTL_MES_H105_216_001	215	107	4	Physical attacks won't work on that thing!?
+266	010A	BTL_MES_H105_216_002	215	107	5	Physical attacks won't work, so be careful!
+267	010B	BTL_MES_H105_217_001	216	108	0	This one's strong! Fire won't work on it!
+268	010C	BTL_MES_H105_217_002	216	108	1	Don't waste your time with fire attacks!
+269	010D	BTL_MES_H105_218_001	217	108	4	Ngh, ice won't work on it! Be careful!
+270	010E	BTL_MES_H105_218_002	217	108	5	It's a strong one... Don't bother using ice!
+271	010F	BTL_MES_H105_219_001	218	109	0	You can forget about using wind attacks!
+272	0110	BTL_MES_H105_219_002	218	109	1	It's a tough one... Wind won't work on it.
+273	0111	BTL_MES_H105_220_001	219	109	4	It's really strong... Don't use electricity!
+274	0112	BTL_MES_H105_220_002	219	109	5	Electricity won't work! Be careful!
+275	0113	BTL_MES_H105_221_001	220	110	0	This one's strong, and Light won't work!
+276	0114	BTL_MES_H105_221_002	220	110	1	Light won't work! Watch yourselves!
+277	0115	BTL_MES_H105_222_001	221	110	4	Darkness won't work! Look out--it's strong!
+278	0116	BTL_MES_H105_222_002	221	110	5	That's a tough one! Darkness won't work...
+279	0117	BTL_MES_H105_223_001	222	111	0	Ahh, it's a no-brainer. I'm sure you'll win!
+280	0118	BTL_MES_H105_223_002	222	111	1	That one's totally weak! Better not lose!
+281	0119	BTL_MES_H105_224_001	223	111	4	It's weak to physical attacks! Beat it down!
+282	011A	BTL_MES_H105_224_002	223	111	5	It's weak to physical attacks! You can do it!
+283	011B	BTL_MES_H105_225_001	224	112	0	It's weak to fire! This should be easy!
+284	011C	BTL_MES_H105_225_002	224	112	1	Let's see... This enemy's weak to fire!
+285	011D	BTL_MES_H105_226_001	225	112	4	Ice is its weakness! You can beat this one!
+286	011E	BTL_MES_H105_226_002	225	112	5	Hmm, this one's weak to ice!
+287	011F	BTL_MES_H105_227_001	226	113	0	You can win this! Blast it with wind!
+288	0120	BTL_MES_H105_227_002	226	113	1	Ooh, this enemy's weakness is wind!
+289	0121	BTL_MES_H105_228_001	227	113	4	Electricity should do the trick! Good luck!
+290	0122	BTL_MES_H105_228_002	227	113	5	This one's beary weak against electricity!
+291	0123	BTL_MES_H105_229_001	228	114	0	Light works well on this one! You can win!
+292	0124	BTL_MES_H105_229_002	228	114	1	This enemy's weakness is Light!
+293	0125	BTL_MES_H105_230_001	229	114	4	Don't give up! Try using Darkness on it!
+294	0126	BTL_MES_H105_230_002	229	114	5	This enemy's weak to Darkness!
+295	0127	BTL_MES_H105_231_001	230	115	0	What a pain... Physical attacks won't work!
+296	0128	BTL_MES_H105_231_002	230	115	1	Physical attacks are useless on this one!
+297	0129	BTL_MES_H105_232_001	231	115	4	Fire's no good on this one!
+298	012A	BTL_MES_H105_232_002	231	115	5	You can win this, just don't use fire attacks!
+299	012B	BTL_MES_H105_233_001	232	116	0	Forget ice attacks! Just do your best!
+300	012C	BTL_MES_H105_233_002	232	116	1	Ice won't work on this enemy!
+301	012D	BTL_MES_H105_234_001	233	116	4	Wind won't work, huh? Try something else...
+302	012E	BTL_MES_H105_234_002	233	116	5	Wind's useless on this enemy!
+303	012F	BTL_MES_H105_235_001	234	117	0	Electricity's busted, but don't give up!
+304	0130	BTL_MES_H105_235_002	234	117	1	Electricity just won't work on this enemy!
+305	0131	BTL_MES_H105_236_001	235	117	4	Careful! Light won't do anything to it!
+306	0132	BTL_MES_H105_236_002	235	117	5	Light won't work on this enemy!
+307	0133	BTL_MES_H105_237_001	236	118	0	Careful, guys! Don't use Darkness on it!
+308	0134	BTL_MES_H105_237_002	236	118	1	Darkness won't work on this enemy!
+309	0135	BTL_MES_H105_238_001	237	118	4	Wow, it's puny! This'll be cake!
+310	0136	BTL_MES_H105_238_002	237	118	5	Noooo problem! It'll be over in a flash!
+311	0137	BTL_MES_H105_239_001	238	119	0	Ooh, it's weak to physical attacks!
+312	0138	BTL_MES_H105_239_002	238	119	1	It's weak to physical attacks! Piece o' cake!
+313	0139	BTL_MES_H105_240_001	239	119	4	It's weak to fire! Haha, this'll be easy!
+314	013A	BTL_MES_H105_240_002	239	119	5	This one's a gimme! It's weak to fire!
+315	013B	BTL_MES_H105_241_001	240	120	0	It's weak to ice! This'll be easy!
+316	013C	BTL_MES_H105_241_002	240	120	1	Ice should work well! You can win this, guys!
+317	013D	BTL_MES_H105_242_001	241	120	4	Wind will work on it! Go to town, guys!
+318	013E	BTL_MES_H105_242_002	241	120	5	It's weak to wind! This'll be a breeze!
+319	013F	BTL_MES_H105_243_001	242	121	0	Electricity will work! This'll be easy!
+320	0140	BTL_MES_H105_243_002	242	121	1	Haha, it's so puny! Use electricity on it!
+321	0141	BTL_MES_H105_244_001	243	121	4	Light will work on it! This should be a snap!
+322	0142	BTL_MES_H105_244_002	243	121	5	It's weak to Light! Beat it and move on!
+323	0143	BTL_MES_H105_245_001	244	122	0	Darkness will work! This'll be an easy win!
+324	0144	BTL_MES_H105_245_002	244	122	1	It's weak to Darkness! Go on, defeat it!
+325	0145	BTL_MES_H105_246_001	245	122	4	Physical attacks won't work on THAT runt!?
+326	0146	BTL_MES_H105_246_002	245	122	5	Physical attacks won't work! What a pain...!
+327	0147	BTL_MES_H105_247_001	246	123	0	Fire won't work. Try something else instead!
+328	0148	BTL_MES_H105_247_002	246	123	1	You can win this, just don't use fire on it!
+329	0149	BTL_MES_H105_248_001	247	123	4	Ice won't work, so try another attack!
+330	014A	BTL_MES_H105_248_002	247	123	5	You can win this, but not by using ice!
+331	014B	BTL_MES_H105_249_001	248	124	0	Wind won't work. Got anything else?
+332	014C	BTL_MES_H105_249_002	248	124	1	You can win this! Just give wind a rest, okay?
+333	014D	BTL_MES_H105_250_001	249	124	4	Electricity won't work. What else you got?
+334	014E	BTL_MES_H105_250_002	249	124	5	You can beat it! Though not with electricity...
+335	014F	BTL_MES_H105_251_001	250	125	0	Light won't work... Plan B, anyone?
+336	0150	BTL_MES_H105_251_002	250	125	1	You can win this! Just don't use Light on it!
+337	0151	BTL_MES_H105_252_001	251	125	4	Darkness won't work, so use something else!
+338	0152	BTL_MES_H105_252_002	251	125	5	You can win this! Just don't use Darkness!
+339	0153	BTL_MES_H105_253_001	252	126	0	Go get 'em! Go go go!
+340	0154	BTL_MES_H105_253_002	252	126	1	Go for it, guys! Hang in there!
+341	0155	BTL_MES_H105_253_003	252	126	2	Beat it to a pulp! Keep going, guys!
+342	0156	BTL_MES_H105_254_001	253	126	4	All enemies defeated! You rock, Senpai!
+343	0157	BTL_MES_H105_255_001	254	127	0	All enemies defeated! Amazing, Yosuke-senpai!
+344	0158	BTL_MES_H105_256_001	255	127	4	You beat them all!? Good job, Chie-senpai!
+345	0159	BTL_MES_H105_257_001	256	128	0	All done! That's our Yukiko-senpai!
+346	015A	BTL_MES_H105_258_001	257	128	4	All enemies defeated! Good going, Kanji!
+347	015B	BTL_MES_H105_259_001	258	129	0	All done! That was so cool, Naoto-kun!
+348	015C	BTL_MES_H105_260_001	259	129	4	Wow, you beat 'em all! Not bad, Teddie!
+349	015D	BTL_MES_H105_261_001	260	130	0	Amazing, Senpai! Four enemies defeated!
+350	015E	BTL_MES_H105_262_001	261	130	4	Great job, Yosuke- senpai! Four defeated!
+351	015F	BTL_MES_H105_263_001	262	131	0	Nice, Chie-senpai! That's four of 'em!
+352	0160	BTL_MES_H105_264_001	263	131	4	Wonderful, Yukiko- senpai! Four defeated!
+353	0161	BTL_MES_H105_265_001	264	132	0	Not too shabby, Kanji! Four enemies defeated!
+354	0162	BTL_MES_H105_266_001	265	132	4	That ruled, Naoto-kun! Four enemies defeated!
+355	0163	BTL_MES_H105_267_001	266	133	0	Ooh, good job, Teddie! Four enemies defeated!
+356	0164	BTL_MES_H105_268_001	267	133	4	Three enemies defeated! You're so cool, Senpai!
+357	0165	BTL_MES_H105_269_001	268	134	0	Three enemies defeated! Go, Yosuke-senpai!
+358	0166	BTL_MES_H105_270_001	269	134	4	Three enemies defeated! Awesome, Chie-senpai!
+359	0167	BTL_MES_H105_271_001	270	135	0	Three enemies defeated! Nice, Yukiko-senpai!
+360	0168	BTL_MES_H105_272_001	271	135	4	Three enemies defeated! Way to go, Kanji!
+361	0169	BTL_MES_H105_273_001	272	136	0	Three enemies defeated! You did it, Naoto-kun!
+362	016A	BTL_MES_H105_274_001	273	136	4	Three enemies defeated! Good boy, Teddie!
+363	016B	BTL_MES_H105_275_001	274	137	0	You're on a roll, Senpai! Two defeated!
+364	016C	BTL_MES_H105_276_001	275	137	4	Keep it up, Yosuke- senpai! Two defeated!
+365	016D	BTL_MES_H105_277_001	276	138	0	Whoa, Chie-senpai! That's two defeated!
+366	016E	BTL_MES_H105_278_001	277	138	4	Amazing, Yukiko-senpai! Two defeated so far!
+367	016F	BTL_MES_H105_279_001	278	139	0	Kanji defeated two enemies! Go team!
+368	0170	BTL_MES_H105_280_001	279	139	4	Wow, Naoto-kun! You defeated two enemies!
+369	0171	BTL_MES_H105_281_001	280	140	0	Nice moves, Teddie! Two defeated!
+370	0172	BTL_MES_H105_282_001	281	140	4	Enemy defeated! You're off to a good start!
+371	0173	BTL_MES_H105_282_002	281	140	5	Go, Senpai! You rock!
+372	0174	BTL_MES_H105_282_003	281	140	6	That's great, Senpai! You really get me going!
+373	0175	BTL_MES_H105_283_001	282	141	0	Enemy defeated! Keep it up, Yosuke-senpai!
+374	0176	BTL_MES_H105_283_002	282	141	1	Whoa! That was awesome, Yosuke-senpai!
+375	0177	BTL_MES_H105_283_003	282	141	2	Y-Yosuke-senpai was... cool!? No way!
+376	0178	BTL_MES_H105_284_001	283	141	4	Enemy defeated! That's the spirit, Chie-senpai!
+377	0179	BTL_MES_H105_284_002	283	141	5	Go Chie-senpai, go! Kick their ass!
+378	017A	BTL_MES_H105_284_003	283	141	6	Oof! That looked like it hurt...!
+379	017B	BTL_MES_H105_285_001	284	142	0	Enemy defeated! Good job, Yukiko-senpai!
+380	017C	BTL_MES_H105_285_002	284	142	1	Yukiko-senpai beats the enemy in style!
+381	017D	BTL_MES_H105_285_003	284	142	2	Yukiko-senpai!? Boy, if looks could kill...!
+382	017E	BTL_MES_H105_286_001	285	142	4	Enemy defeated! Keep up the good work, Kanji!
+383	017F	BTL_MES_H105_286_002	285	142	5	Kanji, that was great! You're the man!
+384	0180	BTL_MES_H105_286_003	285	142	6	I wasn't expecting that from you, Kanji! Sweet!
+385	0181	BTL_MES_H105_287_001	286	143	0	Enemy defeated! Don't stop now, Naoto-kun!
+386	0182	BTL_MES_H105_287_002	286	143	1	Naoto-kun's busting heads and lookin' cool!
+387	0183	BTL_MES_H105_287_003	286	143	2	Wow, Naoto-kun! You never lose your cool!
+388	0184	BTL_MES_H105_288_001	287	143	4	Enemy defeated! Go for broke, Teddie!
+389	0185	BTL_MES_H105_288_002	287	143	5	Good going, Teddie! Keep it up!
+390	0186	BTL_MES_H105_288_003	287	143	6	Look at you, Teddie! You're rockin' it!
+391	0187	BTL_MES_H105_289_001	288	144	0	*squeal* You're so cool, Senpai!
+392	0188	BTL_MES_H105_290_001	289	144	4	Amazing, Yosuke-senpai!
+393	0189	BTL_MES_H105_291_001	290	145	0	Just what I'd expect from Chie-senpai!
+394	018A	BTL_MES_H105_292_001	291	145	4	Brilliant, Yukiko-senpai!
+395	018B	BTL_MES_H105_293_001	292	146	0	Nice, Kanji! Keep it up!
+396	018C	BTL_MES_H105_294_001	293	146	4	Whoa, Naoto-kun! That wasn't half bad!
+397	018D	BTL_MES_H105_295_001	294	147	0	Ooh! Good going, Teddie!
+398	018E	BTL_MES_H105_296_001	295	147	4	Four enemies down! Brilliant, Senpai!
+399	018F	BTL_MES_H105_297_001	296	148	0	Four enemies down! Go, Yosuke-senpai!
+400	0190	BTL_MES_H105_298_001	297	148	4	Four enemies down! Great, Chie-senpai!
+401	0191	BTL_MES_H105_299_001	298	149	0	Four enemies down! Amazing, Yukiko-senpai!
+402	0192	BTL_MES_H105_300_001	299	149	4	Four enemies down! Attaboy, Kanji!
+403	0193	BTL_MES_H105_301_001	300	150	0	Four enemies down! Not bad, Naoto-kun!
+404	0194	BTL_MES_H105_302_001	301	150	4	Four enemies down! Good work, Teddie!
+405	0195	BTL_MES_H105_303_001	302	151	0	Three enemies down! You did it, Senpai!
+406	0196	BTL_MES_H105_304_001	303	151	4	Three enemies down! Awesome, Yosuke-senpai!
+407	0197	BTL_MES_H105_305_001	304	152	0	Three enemies down! Good job, Chie-senpai!
+408	0198	BTL_MES_H105_306_001	305	152	4	Three enemies down! Wow, Yukiko-senpai!
+409	0199	BTL_MES_H105_307_001	306	153	0	Three enemies down! That's the way, Kanji!
+410	019A	BTL_MES_H105_308_001	307	153	4	Three enemies down! Keep at it, Naoto-kun!
+411	019B	BTL_MES_H105_309_001	308	154	0	Three enemies down! Go get 'em, Teddie!
+412	019C	BTL_MES_H105_310_001	309	154	4	Two enemies down! Keep going, Senpai!
+413	019D	BTL_MES_H105_311_001	310	155	0	Two enemies down! Good going, Yosuke-senpai!
+414	019E	BTL_MES_H105_312_001	311	155	4	Two enemies down! Do it again, Chie-senpai!
+415	019F	BTL_MES_H105_313_001	312	156	0	Two enemies down! Great, Yukiko-senpai!
+416	01A0	BTL_MES_H105_314_001	313	156	4	Two enemies down! Take 'em out, Kanji!
+417	01A1	BTL_MES_H105_315_001	314	157	0	Two enemies down! That's the spirit, Naoto-kun!
+418	01A2	BTL_MES_H105_316_001	315	157	4	Two enemies down! Not bad at all, Teddie!
+419	01A3	BTL_MES_H105_317_001	316	158	0	Enemy down! Nice move, Senpai!
+420	01A4	BTL_MES_H105_318_001	317	158	4	Enemy down! That's the way, Yosuke-senpai!
+421	01A5	BTL_MES_H105_319_001	318	159	0	Enemy down! You did it, Chie-senpai!
+422	01A6	BTL_MES_H105_320_001	319	159	4	Enemy down! Great work, Yukiko-senpai!
+423	01A7	BTL_MES_H105_321_001	320	160	0	Enemy down! Show 'em what you've got, Kanji!
+424	01A8	BTL_MES_H105_322_001	321	160	4	Enemy down! Go to town, Naoto-kun!
+425	01A9	BTL_MES_H105_323_001	322	161	0	Enemy down! That's the spirit, Teddie!
+426	01AA	BTL_MES_H105_324_001	323	161	4	You hit the enemy's weakness!
+427	01AB	BTL_MES_H105_324_002	323	161	5	Ooooh, Senpai! That was perfect!
+428	01AC	BTL_MES_H105_324_003	323	161	6	That's the way, Senpai! Do some more damage!
+429	01AD	BTL_MES_H105_325_001	324	162	0	You hit its weakness, Yosuke-senpai!
+430	01AE	BTL_MES_H105_325_002	324	162	1	Way to go, Yosuke-senpai! You're on fire!
+431	01AF	BTL_MES_H105_325_003	324	162	2	Wow, Yosuke-senpai! Out to steal the show, huh?
+432	01B0	BTL_MES_H105_326_001	325	162	4	You struck its weak spot, Chie-senpai!
+433	01B1	BTL_MES_H105_326_002	325	162	5	Right on, Chie-senpai! You're doing good!
+434	01B2	BTL_MES_H105_326_003	325	162	6	Lookin' sharp, Chie-senpai!
+435	01B3	BTL_MES_H105_327_001	326	163	0	You hit its weakness, Yukiko-senpai!
+436	01B4	BTL_MES_H105_327_002	326	163	1	Aha...! Awesome as usual, Yukiko-senpai!
+437	01B5	BTL_MES_H105_327_003	326	163	2	Gooo, Yukiko-senpai! Give 'em some more!
+438	01B6	BTL_MES_H105_328_001	327	163	4	A direct hit to its weakness! Go, Kanji!
+439	01B7	BTL_MES_H105_328_002	327	163	5	Wow, Kanji! You got some smooth moves there!
+440	01B8	BTL_MES_H105_328_003	327	163	6	Huh... that was awesome! Not bad... for Kanji!
+441	01B9	BTL_MES_H105_329_001	328	164	0	You hit its weakness! Good move, Naoto-kun!
+442	01BA	BTL_MES_H105_329_002	328	164	1	Way to go, Naoto-kun! You don't miss a trick!
+443	01BB	BTL_MES_H105_329_003	328	164	2	Good, Naoto-kun, good! Keep it up!
+444	01BC	BTL_MES_H105_330_001	329	164	4	That was its weak spot! Good going, Teddie!
+445	01BD	BTL_MES_H105_330_002	329	164	5	Yaaaaaaay! Keep it up, Teddie!
+446	01BE	BTL_MES_H105_330_003	329	164	6	Go for it, Teddie! Don't stop!
+447	01BF	BTL_MES_H105_331_001	330	165	0	Awesome, Senpai! You really hit it hard!
+448	01C0	BTL_MES_H105_331_002	330	165	1	That's great, Senpai! Go in for the kill!
+449	01C1	BTL_MES_H105_331_003	330	165	2	Go, Senpai! Keep up the streak!
+450	01C2	BTL_MES_H105_332_001	331	165	4	Ooh, nice hit! Great move, Yosuke-senpai!
+451	01C3	BTL_MES_H105_332_002	331	165	5	Hm? Are you getting up to speed now, Yosuke-senpai?
+452	01C4	BTL_MES_H105_332_003	331	165	6	Yosuke-senpai, you looked sooo awesome!
+453	01C5	BTL_MES_H105_333_001	332	166	0	Now that's a strike! Nice one, Chie-senpai!
+454	01C6	BTL_MES_H105_333_002	332	166	1	That was nice, Chie- senpai! Lookin' good!
+455	01C7	BTL_MES_H105_333_003	332	166	2	Yesssss! Chie-senpai's in for the kill!
+456	01C8	BTL_MES_H105_334_001	333	166	4	What a clean hit! Amazing, Yukiko-senpai!
+457	01C9	BTL_MES_H105_334_002	333	166	5	I think we saw Yukiko- senpai's true colors!
+458	01CA	BTL_MES_H105_334_003	333	166	6	Ahahaha! Yukiko-senpai, you ARE merciless!
+459	01CB	BTL_MES_H105_335_001	334	167	0	Ooh, very nice! Great move, Kanji!
+460	01CC	BTL_MES_H105_335_002	334	167	1	That's good, Kanji! It's rampage time!
+461	01CD	BTL_MES_H105_335_003	334	167	2	Oh, hey! Not too shabby, Kanji!
+462	01CE	BTL_MES_H105_336_001	335	167	4	Wow, Naoto-kun, that looked like it hurt!
+463	01CF	BTL_MES_H105_336_002	335	167	5	That's good, Naoto-kun! Keep it up!
+464	01D0	BTL_MES_H105_336_003	335	167	6	Way to go, Naoto-kun! Let's see some more!
+465	01D1	BTL_MES_H105_337_001	336	168	0	Critical hit! That was awesome, Teddie!
+466	01D2	BTL_MES_H105_337_002	336	168	1	That was good, Teddie! Keep it up!
+467	01D3	BTL_MES_H105_337_003	336	168	2	Not bad, Teddie!
+468	01D4	BTL_MES_H105_338_001	337	168	4	No way! That missed!? Hang in there, Senpai!
+469	01D5	BTL_MES_H105_339_001	338	169	0	Whoa, Yosuke-senpai! Lame!
+470	01D6	BTL_MES_H105_340_001	339	169	4	Um, Chie-senpai! You missed!
+471	01D7	BTL_MES_H105_341_001	340	170	0	Yukiko-senpai! Don't let it get to you!
+472	01D8	BTL_MES_H105_342_001	341	170	4	Hey, Kanji! You gotta try harder than that!
+473	01D9	BTL_MES_H105_343_001	342	171	0	C'mon, Naoto-kun! You need better aim!
+474	01DA	BTL_MES_H105_344_001	343	171	4	Teddie! What's with you, huh!?
+475	01DB	BTL_MES_H105_345_001	344	172	0	*gasp* Senpai! Are you okay?
+476	01DC	BTL_MES_H105_346_001	345	172	4	Yikes! Hang in there, Yosuke-senpai!
+477	01DD	BTL_MES_H105_347_001	346	173	0	C'mon, Chie-senpai! Hang in there!
+478	01DE	BTL_MES_H105_348_001	347	173	4	*gasp* Yukiko-senpai! Don't give up!
+479	01DF	BTL_MES_H105_349_001	348	174	0	Gee, Kanji! Don't strain yourself!
+480	01E0	BTL_MES_H105_350_001	349	174	4	*gasp* Naoto-kun! Are you okay!?
+481	01E1	BTL_MES_H105_351_001	350	175	0	Hey, Teddie! What're you doing!?
+482	01E2	BTL_MES_H105_352_001	351	175	4	*gasp* Yosuke-senpai?
+483	01E3	BTL_MES_H105_353_001	352	176	0	Chie-senpai? Where are you going...?
+484	01E4	BTL_MES_H105_354_001	353	176	4	*gasp* Yukiko-senpai...
+485	01E5	BTL_MES_H105_355_001	354	177	0	Kanji! Don't leave now!
+486	01E6	BTL_MES_H105_356_001	355	177	4	Naoto-kun, stop! Don't run away!
+487	01E7	BTL_MES_H105_357_001	356	178	0	Teddie! Come back!
+488	01E8	BTL_MES_H105_358_001	357	178	4	Senpai, no! Please get up!
+489	01E9	BTL_MES_H105_358_002	357	178	5	S-Senpai? Nooooo!
+490	01EA	BTL_MES_H105_358_003	357	178	6	No! Senpai's--!
+491	01EB	BTL_MES_H105_359_000	358	179	0	h105_359_000
+492	01EC	BTL_MES_H105_360_000	359	179	4	h105_360_000
+493	01ED	BTL_MES_H105_361_000	360	180	0	h105_361_000
+494	01EE	BTL_MES_H105_362_000	361	180	4	h105_362_000
+495	01EF	BTL_MES_H105_363_000	362	181	0	h105_363_000
+496	01F0	BTL_MES_H105_364_000	363	181	4	h105_364_000
+497	01F1	BTL_MES_H105_365_001	364	182	0	C'mon, get up! Please get up!
+498	01F2	BTL_MES_H105_366_001	365	182	4	Don't give in! Please, get back up!
+499	01F3	BTL_MES_H105_367_001	366	183	0	You can't give in! Please get up!
+500	01F4	BTL_MES_H105_368_001	367	183	4	No... You can't lose like this! Get up!
+501	01F5	BTL_MES_H105_369_001	368	184	0	How dare you do that to Senpai! Get up...!
+502	01F6	BTL_MES_H105_370_001	369	184	4	Get up! Please, Senpai!
+503	01F7	BTL_MES_H105_371_001	370	185	0	No, get up! We came so far...!
+504	01F8	BTL_MES_H105_372_001	371	185	4	Great job!
+505	01F9	BTL_MES_H105_372_002	371	185	5	Yesss! We won! Congrats, guys!
+506	01FA	BTL_MES_H105_372_003	371	185	6	Alright, we won! We did it!
+507	01FB	BTL_MES_H105_373_000	372	186	0	h105_373_000
+508	01FC	BTL_MES_H105_374_000	373	186	4	h105_374_000
+509	01FD	BTL_MES_H105_375_000	374	187	0	h105_375_000
+510	01FE	BTL_MES_H105_376_000	375	187	4	h105_376_000
+511	01FF	BTL_MES_H105_377_000	376	188	0	h105_377_000
+512	0200	BTL_MES_H105_378_000	377	188	4	h105_378_000
+513	0201	BTL_MES_H105_379_001	378	189	0	Thank goodness...
+514	0202	BTL_MES_H105_380_001	379	189	4	Great job! I guess that settles this?
+515	0203	BTL_MES_H105_381_001	380	190	0	Phew, good work! That went well!
+516	0204	BTL_MES_H105_382_001	381	190	4	We need to get Nanako- chan to the hospital!
+517	0205	BTL_MES_H105_383_001	382	191	0	Yes, we won! We really won!
+518	0206	BTL_MES_H105_384_001	383	191	4	Well done. It's finished.
+519	0207	BTL_MES_H105_385_001	384	192	0	Well done. It's finished.
+520	0208	BTL_MES_H105_386_001	385	192	4	Alright! Level up!
+521	0209	BTL_MES_H105_386_002	385	192	5	Yes! I leveled up!
+522	020A	BTL_MES_H105_386_003	385	192	6	It's level up time!
+523	020B	BTL_MES_H105_387_001	386	193	0	Ooh, congratulations!
+524	020C	BTL_MES_H105_387_002	386	193	1	Congrats, Senpai!
+525	020D	BTL_MES_H105_387_003	386	193	2	Alright, Senpai!
+526	020E	BTL_MES_H105_388_000	387	193	4	This is way beyond our normal battles...
+527	020F	BTL_MES_H105_389_000	388	194	0	Can we really win this...?
+528	0210	BTL_MES_H105_390_000	389	194	4	There's no way she can be this strong...
+529	0211	BTL_MES_H105_391_000	390	195	0	She's far from finished! Stay focused!
+530	0212	BTL_MES_H105_392_000	391	195	4	No way! She can use Personas!? Who IS she?
+531	0213	BTL_MES_H105_393_000	392	196	0	Whoa, are attacks like that really allowed!?
+532	0214	BTL_MES_H105_394_000	393	196	4	Senpai, please hang in there!
+533	0215	BTL_MES_H105_395_001	394	197	0	C'mon, get up! Please get up!
+534	0216	BTL_MES_H105_396_001	395	197	4	No, get up! We came so far...!
+535	0217	BTL_MES_H105_397_001	396	198	0	*gasp* Yosuke-senpai! Noooo!
+536	0218	BTL_MES_H105_398_001	397	198	4	Ch-Chie-senpai! Noooo!
+537	0219	BTL_MES_H105_399_001	398	199	0	Yukiko-senpai! Noooo!
+538	021A	BTL_MES_H105_400_001	399	199	4	*gasp* Kanji! Noooo!
+539	021B	BTL_MES_H105_401_001	400	200	0	Don't give in! Please, get back up!
+540	021C	BTL_MES_H105_402_000	401	200	4	Oh, I see... Its true form's in the shell!
+541	021D	BTL_MES_H105_403_000	402	201	0	You'll have to destroy the outer shell first!
+542	021E	BTL_MES_H105_404_000	403	201	4	It's going to shut itself in again!
+543	021F	BTL_MES_H105_405_000	404	202	0	It's pretty weak now! Just a little more!
+544	0220	BTL_MES_H105_406_000	405	202	4	It's shut itself in... Try breaking the shell?
+545	0221	BTL_MES_H105_407_000	406	203	0	*gasp* Its true form!
+546	0222	BTL_MES_H105_408_000	407	203	4	You can attack its true form now! Go get it!
+547	0223	BTL_MES_H105_409_000	408	204	0	h105_409_000
+548	0224	BTL_MES_H105_410_000	409	204	4	It's exhausted! Now's your chance to attack!
+549	0225	BTL_MES_H105_411_000	410	205	0	Be careful! Something's coming!
+550	0226	BTL_MES_H105_412_000	411	205	4	What the--All your resistances are gone!
+551	0227	BTL_MES_H105_413_000	412	206	0	Your resistances aren't restored yet...
+552	0228	BTL_MES_H105_414_000	413	206	4	A-Are you all right!? What an attack...
+553	0229	BTL_MES_H105_415_000	414	207	0	Just a little more and it'll be toast!
+554	022A	BTL_MES_H105_416_000	415	207	4	What's this feeling...? Something's changed...
+555	022B	BTL_MES_H105_417_000	416	208	0	Aha! That move is changing things around!
+556	022C	BTL_MES_H105_418_000	417	208	4	h105_418_000
+557	022D	BTL_MES_H105_419_000	418	209	0	Yosuke-senpai seems to be controlled!
+558	022E	BTL_MES_H105_419_001	418	209	1	Yosuke-senpai's been brainwashed!
+559	022F	BTL_MES_H105_420_000	419	209	4	Chie-senpai seems to be controlled!
+560	0230	BTL_MES_H105_420_001	419	209	5	Chie-senpai's been brainwashed!
+561	0231	BTL_MES_H105_421_000	420	210	0	Yukiko-senpai seems to be under its control!
+562	0232	BTL_MES_H105_421_000	420	210	1	Yukiko-senpai's been brainwashed!
+563	0233	BTL_MES_H105_422_000	421	210	4	Kanji seems to be controlled!
+564	0234	BTL_MES_H105_422_001	421	210	5	Kanji's been brainwashed!
+565	0235	BTL_MES_H105_423_000	422	211	0	Naoto-kun seems to be controlled!
+566	0236	BTL_MES_H105_423_001	422	211	1	Naoto-kun's been brainwashed!
+567	0237	BTL_MES_H105_424_000	423	211	4	Teddie seems to be controlled!
+568	0238	BTL_MES_H105_424_001	423	211	5	Teddie's been brainwashed!
+569	0239	BTL_MES_H105_425_000	424	212	0	Fire will have a greater effect now!
+570	023A	BTL_MES_H105_426_000	425	212	4	Ice attacks will be more effective now!
+571	023B	BTL_MES_H105_427_000	426	213	0	The power of wind skills is greater now!
+572	023C	BTL_MES_H105_428_000	427	213	4	Electric attacks are more effective now!
+573	023D	BTL_MES_H105_429_000	428	214	0	Careful! It's gearing up for an attack!
+574	023E	BTL_MES_H105_430_000	429	214	4	I can't believe he's the one...!
+575	023F	BTL_MES_H105_431_000	430	215	0	That bastard! We can't lose, no matter what!
+576	0240	BTL_MES_H105_432_000	431	215	4	It's getting tired! Just a little more!
+577	0241	BTL_MES_H105_433_000	432	216	0	Was that a Persona!?
+578	0242	BTL_MES_H105_434_000	433	216	4	A Persona!? But that can't be!
+579	0243	BTL_MES_H105_435_000	434	217	0	What's it doing...? Be ready for anything!
+580	0244	BTL_MES_H105_436_000	435	217	4	Argh, we can't do anything!
+581	0245	BTL_MES_H105_437_000	436	218	0	We've come this far! We WILL win!
+582	0246	BTL_MES_H105_438_000	437	218	4	Argh, we can't do anything!
+583	0247	BTL_MES_H105_439_000	438	219	0	Be careful! I don't like how this feels!
+584	0248	BTL_MES_H105_440_000	439	219	4	What a strong attack... Is everyone okay!?
+585	0249	BTL_MES_H105_441_000	440	220	0	Huh? Wh-What happened!?
+586	024A	BTL_MES_H105_442_000	441	220	4	Power's flowing into it!
+587	024B	BTL_MES_H105_443_000	442	221	0	It's about to attack! Defend yourselves!
+588	024C	BTL_MES_H105_444_000	443	221	4	This will end it all... We have to believe!
+589	024D	BTL_MES_H105_445_000	444	222	0	C'mon guys, just a little more to go!
+590	024E	BTL_MES_H105_446_000	445	222	4	No... Is it really that much stronger!?
+591	024F	BTL_MES_H105_447_000	446	223	0	Look out! We've never seen anything like her!
+592	0250	BTL_MES_H105_448_000	447	223	4	Huh!? Its power's rising!
+593	0251	BTL_MES_H105_449_000	448	224	0	Its power really is rising! Be careful!
+594	0252	BTL_MES_H105_450_000	449	224	4	h105_450_000
+595	0253	BTL_MES_H105_451_000	450	225	0	h105_451_000
+596	0254	BTL_MES_H105_452_000	451	225	4	h105_452_000
+597	0255	BTL_MES_H105_453_000	452	226	0	h105_453_000
+598	0256	BTL_MES_H105_454_000	453	226	4	h105_454_000
+599	0257	BTL_MES_H105_455_000	454	227	0	h105_455_000
+600	0258	BTL_MES_H105_456_000	455	227	4	h105_456_000
+601	0259	BTL_MES_H105_457_000	456	228	0	h105_457_000
+602	025A	BTL_MES_H105_458_000	457	228	4	h105_458_000
+603	025B	BTL_MES_H105_459_000	458	229	0	h105_459_000
+604	025C	BTL_MES_H105_460_000	459	229	4	h105_460_000
+605	025D	BTL_MES_H105_461_000	460	230	0	h105_461_000
+606	025E	BTL_MES_H105_462_000	461	230	4	h105_462_000
+607	025F	BTL_MES_H105_463_000	462	231	0	h105_463_000
+608	0260	BTL_MES_H105_464_000	463	231	4	h105_464_000
+609	0261	BTL_MES_H105_465_000	464	232	0	h105_465_000
+610	0262	BTL_MES_H105_466_000	465	232	4	I can't find any opening to escape...
+611	0263	BTL_MES_H105_467_000	466	233	0	h105_467_000
+612	0264	BTL_MES_H105_468_000	467	233	4	h105_468_000
+613	0265	BTL_MES_H105_469_000	468	234	0	h105_469_000
+614	0266	BTL_MES_H105_470_000	469	234	4	h105_470_000
+615	0267	BTL_MES_H105_471_000	470	235	0	Someone hurry and help them up!
+616	0268	BTL_MES_H105_472_000	471	235	4	What...? I have a bad feeling about this...
+617	0269	BTL_MES_H105_473_000	472	236	0	It's... It's going to attack! Get ready!
+618	026A	BTL_MES_H105_474_000	473	236	4	Huh...? Th-This can't be!
+619	026B	BTL_MES_H105_475_000	474	237	0	It's desperate... Just a little more to go!
+620	026C	BTL_MES_H105_476_000	475	237	4	No way! She can use a Persona too!? Who IS she!?
+621	026D	BTL_MES_H105_477_000	476	238	0	That's four enemies defeated!
+622	026E	BTL_MES_H105_478_000	477	238	4	That's three enemies defeated!
+623	026F	BTL_MES_H105_479_000	478	239	0	That's two enemies defeated!
+624	0270	BTL_MES_H105_480_000	479	239	4	You got it!
+625	0271	BTL_MES_H105_481_000	480	240	0	Four enemies down!
+626	0272	BTL_MES_H105_482_000	481	240	4	Three enemies down!
+627	0273	BTL_MES_H105_483_000	482	241	0	Two enemies down!
+628	0274	BTL_MES_H105_484_000	483	241	4	Enemy down!
+629	0275	BTL_MES_H105_485_000	484	242	0	You hit the enemy's weakness!
+630	0276	BTL_MES_H105_486_000	485	242	4	You really hit it hard!
+631	0277	BTL_MES_H105_487_000	486	243	0	Hey, that was a pretty good hit!
+632	0278	BTL_MES_H105_488_000	487	243	4	Now that's a strike!
+633	0279	BTL_MES_H105_489_000	488	244	0	What a clean hit!
+634	027A	BTL_MES_H105_490_000	489	244	4	Ooh! Very nice!
+635	027B	BTL_MES_H105_491_000	490	245	0	That looked like it hurt!
+636	027C	BTL_MES_H105_492_000	491	245	4	Critical hit!
+637	027D	BTL_MES_H105_493_001	492	246	0	Senpai, you rule!
+638	027E	BTL_MES_H105_494_001	493	246	4	Awesome, Yosuke-senpai!
+639	027F	BTL_MES_H105_495_001	494	247	0	Way to go, Chie-senpai!
+640	0280	BTL_MES_H105_496_001	495	247	4	Nice attack, Yukiko-senpai!
+641	0281	BTL_MES_H105_497_001	496	248	0	That was nice, Kanji!
+642	0282	BTL_MES_H105_498_001	497	248	4	Great work, Naoto-kun!
+643	0283	BTL_MES_H105_499_001	498	249	0	Way to go, Teddie!
+644	0284	BTL_MES_H105_500_001	499	249	4	Good work, everyone!
