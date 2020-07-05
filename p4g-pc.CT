@@ -12,15 +12,15 @@
       <AssemblerScript>[ENABLE]
 {$lua}
 
---- updates a CE registered symbol
-function updateSymbol(name, address, ...)
-  local donotsave = ... or false
-  unregisterSymbol(name)
-  registerSymbol(name, address, donotsave)
-end
+if syntaxcheck then return end
+
+local a = AOBScanPaused("?? ?? ?? ?? 8B 08 89 4D B0 85 F6 75 10", "+X*W*C")
+updateSymbol("_ptrBase", a, true)
+local b = AOBScanPaused("?? ?? ?? ?? 8B 82 E8 0C 00 00 0F B7 48 08", "+X*W*C")
+updateSymbol("_ptrBaseEnemy", b, true)
 
 -- equivalent to vita base
-updateSymbol("_base", "P4G.exe-7CAA3C5C", true)
+updateSymbol("_base", "[[_ptrBase]]-814B301C", true)
 
 local base = getAddress("_base")
 
@@ -49,24 +49,6 @@ updateSymbol("_segTime",         base + 0x814B48F8, true)
 {$asm}
 
 </AssemblerScript>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>1</ID>
-          <Description>"vitaBase"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <Color>C0C0C0</Color>
-          <VariableType>4 Bytes</VariableType>
-          <Address>_base</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>2</ID>
-          <Description>"ptrEnemy"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <Color>C0C0C0</Color>
-          <VariableType>4 Bytes</VariableType>
-          <Address>[[[P4G.exe+724680]+8+18C]+A84]</Address>
-        </CheatEntry>
-      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>3</ID>
@@ -1209,8 +1191,8 @@ frmComp.Hide()
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
-          <ID>204</ID>
-          <Description>"Easy Bug Catching"</Description>
+          <ID>214</ID>
+          <Description>"[CHEAT] Easy Bug Catching"</Description>
           <Color>0080FF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -1218,24 +1200,24 @@ frmComp.Hide()
 
 if syntaxcheck then return end
 
-writeBytes( "P4G.exe+33C7DD", 0xEB, 0x1E )
+local addr = AOBScanPaused("7D 0A C7 44 24 0C 03 00 00 00", "+X*W*C")
+updateSymbol("chEasyBugs", addr, true)
 
 {$asm}
+chEasyBugs:
+  db EB 1E C7 44 24 0C 03 00 00 00
 
 [DISABLE]
-{$lua}
+chEasyBugs:
+  db 7D 0A C7 44 24 0C 03 00 00 00
 
-if syntaxcheck then return end
-
-writeBytes( "P4G.exe+33C7DD", 0x7D, 0x0A )
-
-{$asm}
+unregistersymbol(chEasyBugs)
 
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
-          <ID>205</ID>
-          <Description>"Easy Fishing"</Description>
+          <ID>222</ID>
+          <Description>"[CHEAT] Easy Fishing"</Description>
           <Color>0080FF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -1243,9 +1225,57 @@ writeBytes( "P4G.exe+33C7DD", 0x7D, 0x0A )
 
 if syntaxcheck then return end
 
-writeBytes( "P4G.exe+235AAEB8", 0x25, 0x00, 0x04, 0x00, 0x00 )
-writeBytes( "P4G.exe+235AAEBD", 0x3D, 0x00, 0x00, 0x00, 0x00 )
-writeBytes( "P4G.exe+235AAED8", 0x90, 0x90 )
+local addr = AOBScanPaused("25 00 05 00 00 3D 00 01 00 00", "+X*C*W")
+updateSymbol("chEasyFishing", addr, true)
+
+{$asm}
+
+chEasyFishing:
+  db 25 00 04 00 00 3D 00 00 00 00
+
+chEasyFishing+20:
+  db 90 90
+
+[DISABLE]
+chEasyFishing:
+  db 25 00 05 00 00 3D 00 01 00 00
+
+chEasyFishing+20:
+  db 74 5B
+
+unregistersymbol(chEasyFishing)
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>231</ID>
+          <Description>"[FIX] NG+ Save Slot Bug"</Description>
+          <Color>0080FF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+
+local a = AOBScanPaused("8d 95 f8 fd ff ff 8b ce 6a 06", "+X*W*C")
+local b = AOBScanPaused("8b 04 b5 ?? ?? ?? ?? ff 30 57 ff d3", "+X*W*C")
+
+-- not found, maybe already patched
+if a == nil or b == nil then
+  return
+end
+
+updateSymbol("chSlotFixA", a .. "+8", true)
+updateSymbol("chSlotFixB", b .. "+3", true)
+
+writeBytes("chSlotFixA",    0x6a, 0x07)
+writeBytes("chSlotFixA+2C", 0x6a, 0x06)
+
+local lang = readInteger("[[chSlotFixB]+4]+1C")
+local clear = readInteger("[[chSlotFixB]+4]+18")
+
+writeInteger("[[chSlotFixB]+4]+18", lang)
+writeInteger("[[chSlotFixB]+4]+1C", clear)
 
 {$asm}
 
@@ -1254,11 +1284,82 @@ writeBytes( "P4G.exe+235AAED8", 0x90, 0x90 )
 
 if syntaxcheck then return end
 
-writeBytes( "P4G.exe+235AAEB8", 0x25, 0x00, 0x05, 0x00, 0x00 )
-writeBytes( "P4G.exe+235AAEBD", 0x3D, 0x00, 0x01, 0x00, 0x00 )
-writeBytes( "P4G.exe+235AAED8", 0x74, 0x5B)
+writeBytes("chSlotFixA",    0x6a, 0x06)
+writeBytes("chSlotFixA+2C", 0x6a, 0x07)
+
+local lang = readInteger("[[chSlotFixB]+4]+1C")
+local clear = readInteger("[[chSlotFixB]+4]+18")
+
+writeInteger("[[chSlotFixB]+4]+18", lang)
+writeInteger("[[chSlotFixB]+4]+1C", clear)
 
 {$asm}
+
+unregisterSymbol(chSlotFixA)
+unregisterSymbol(chSlotFixB)
+
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>244</ID>
+              <Description>"&lt;6&gt; LANG"</Description>
+              <Color>C0C0C0</Color>
+              <VariableType>String</VariableType>
+              <Length>16</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>[[[chSlotFixB]+4]+18]</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>245</ID>
+              <Description>"&lt;7&gt; Times Cleared:"</Description>
+              <Color>C0C0C0</Color>
+              <VariableType>String</VariableType>
+              <Length>16</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>[[[chSlotFixB]+4]+1C]</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>252</ID>
+          <Description>"[FIX] Subtitle Cutoff (In-Game Scenes)"</Description>
+          <Color>0080FF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+{$lua}
+
+if syntaxcheck then return end
+
+local a = AOBScanPaused("0a 49 27 6c 6c 20 72 65 73 65 72 76 65 20", "*X-W*C")
+updateSymbol("chSubsFixA", a, true)
+local b = AOBScanPaused("77 65 27 76 65 20 62 65 65 6e 20 74 68 72", "*X-W*C")
+updateSymbol("chSubsFixB", b, true)
+
+{$asm}
+
+chSubsFixA:
+  db 20 49 27 6c 6c 20 72 65 73 65 72 76 65 0a
+
+chSubsFixB:
+  db 77 65 27 76 65 20 62 65 65 6e 0a 74 68 72
+
+[DISABLE]
+{$lua}
+
+{$asm}
+
+chSubsFixA:
+  db 0a 49 27 6c 6c 20 72 65 73 65 72 76 65 20
+
+chSubsFixB:
+  db 77 65 27 76 65 20 62 65 65 6e 20 74 68 72
+
+unregisterSymbol(chSubsFixA)
+unregisterSymbol(chSubsFixB)
 
 </AssemblerScript>
         </CheatEntry>
@@ -2388,20 +2489,20 @@ while memrec.Count &gt; 0 do memrec[0].destroy() end
 
 if syntaxcheck then return end
 
-  local from = getAddress("[[[P4G.exe+724680]+8+18C]+A84]")
+local from = getAddress("[[[[_ptrBaseEnemy]]+8+18C]+A84]")
 
-  for i = 0, 4 do
-    local t = readBytes(from + i * 52)
-    if t &amp; 5 &gt; 0 then
-      local id = readSmallInteger(from + i * 52 + 2)
-      if id &gt; 0 then
-        local r0 = mrClone(mrDesc("dsUnitEnemy"))
-        r0.Address = from + i * 52
-        r0.Description = tab.enemy[id + 1].name
-        r0.appendToEntry(memrec)
-      end
+for i = 0, 4 do
+  local t = readBytes(from + i * 52)
+  if t &amp; 5 &gt; 0 then
+    local id = readSmallInteger(from + i * 52 + 2)
+    if id &gt; 0 then
+      local r0 = mrClone(mrDesc("dsUnitEnemy"))
+      r0.Address = from + i * 52
+      r0.Description = tab.enemy[id + 1].name
+      r0.appendToEntry(memrec)
     end
   end
+end
 
 {$asm}
 
@@ -2417,7 +2518,32 @@ while memrec.Count &gt; 0 do memrec[0].destroy() end
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols />
-  <LuaScript>function mrClone(mr, ...)
+  <LuaScript>-------------------------------------
+-- Persona 4 Golden PC Cheat Table --
+-------------------------------------
+
+function AOBScanPaused( s, ... )
+  pf, at, ap = ...
+  pause()
+  local aob = AOBScan( s, pf, at, ap )
+  unpause()
+
+  local found = nil
+  if aob.Count &gt; 0 then
+    found = aob[0]
+  end
+  aob.destroy()
+  return found
+end
+
+--- updates a CE registered symbol
+function updateSymbol(name, address, ...)
+  local donotsave = ... or false
+  unregisterSymbol(name)
+  registerSymbol(name, address, donotsave)
+end
+
+function mrClone(mr, ...)
   local offset, literal, root = ...
   if mr == nil then return end
 
