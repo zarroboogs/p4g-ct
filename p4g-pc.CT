@@ -108,6 +108,35 @@ updateSymbol("_segTime",         base + 0x814B48F8, true)
               <VariableType>2 Bytes</VariableType>
               <Address>0</Address>
             </CheatEntry>
+            <CheatEntry>
+              <ID>344</ID>
+              <Description>"lstReaperChests"</Description>
+              <DropDownList DisplayValueAsItem="1">0:8 Chests
+1:9 Chests
+2:10 Chests
+3:11 Chests
+4:12 Chests
+5:13 Chests
+6:14 Chests
+7:15 Chests
+8:16 Chests
+9:17 Chests
+10:18 Chests
+11:19 Chests
+12:20 Chests
+13:21 Chests (Chains)
+14:22 Chests (Reaper or Nothing)
+15:1 Chest
+16:2 Chests
+17:3 Chests
+18:4 Chests
+19:5 Chests
+20:6 Chests
+21:7 Chests
+</DropDownList>
+              <VariableType>2 Bytes</VariableType>
+              <Address>0</Address>
+            </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
@@ -1248,8 +1277,9 @@ unregistersymbol(chEasyFishing)
 </AssemblerScript>
         </CheatEntry>
         <CheatEntry>
-          <ID>231</ID>
-          <Description>"[FIX] NG+ Save Slot Bug"</Description>
+          <ID>341</ID>
+          <Description>"[CHEAT] Super Speed"</Description>
+          <Options moHideChildren="1" />
           <Color>0080FF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -1257,111 +1287,25 @@ unregistersymbol(chEasyFishing)
 
 if syntaxcheck then return end
 
-local a = AOBScanPaused("8d 95 f8 fd ff ff 8b ce 6a 06", "+X*W*C")
-local b = AOBScanPaused("8b 04 b5 ?? ?? ?? ?? ff 30 57 ff d3", "+X*W*C")
-
--- not found, maybe already patched
-if a == nil or b == nil then
-  return
-end
-
-updateSymbol("chSlotFixA", a .. "+8", true)
-updateSymbol("chSlotFixB", b .. "+3", true)
-
-writeBytes("chSlotFixA",    0x6a, 0x07)
-writeBytes("chSlotFixA+2C", 0x6a, 0x06)
-
-local lang = readInteger("[[chSlotFixB]+4]+1C")
-local clear = readInteger("[[chSlotFixB]+4]+18")
-
-writeInteger("[[chSlotFixB]+4]+18", lang)
-writeInteger("[[chSlotFixB]+4]+1C", clear)
+local addr = AOBScanPaused("0F 57 C9 F2 0F 5A C8 8B 40 40", "+X*W*C")
+updateSymbol("chSuperSpeed", addr, true)
 
 {$asm}
 
 [DISABLE]
 {$lua}
 
-if syntaxcheck then return end
-
-writeBytes("chSlotFixA",    0x6a, 0x06)
-writeBytes("chSlotFixA+2C", 0x6a, 0x07)
-
-local lang = readInteger("[[chSlotFixB]+4]+1C")
-local clear = readInteger("[[chSlotFixB]+4]+18")
-
-writeInteger("[[chSlotFixB]+4]+18", lang)
-writeInteger("[[chSlotFixB]+4]+1C", clear)
-
 {$asm}
-
-unregisterSymbol(chSlotFixA)
-unregisterSymbol(chSlotFixB)
 
 </AssemblerScript>
           <CheatEntries>
             <CheatEntry>
-              <ID>244</ID>
-              <Description>"&lt;6&gt; LANG"</Description>
-              <Color>C0C0C0</Color>
-              <VariableType>String</VariableType>
-              <Length>16</Length>
-              <Unicode>0</Unicode>
-              <CodePage>0</CodePage>
-              <ZeroTerminate>1</ZeroTerminate>
-              <Address>[[[chSlotFixB]+4]+18]</Address>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>245</ID>
-              <Description>"&lt;7&gt; Times Cleared:"</Description>
-              <Color>C0C0C0</Color>
-              <VariableType>String</VariableType>
-              <Length>16</Length>
-              <Unicode>0</Unicode>
-              <CodePage>0</CodePage>
-              <ZeroTerminate>1</ZeroTerminate>
-              <Address>[[[chSlotFixB]+4]+1C]</Address>
+              <ID>343</ID>
+              <Description>"Speed Factor (Per Field)"</Description>
+              <VariableType>Float</VariableType>
+              <Address>[chSuperSpeed+E]</Address>
             </CheatEntry>
           </CheatEntries>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>252</ID>
-          <Description>"[FIX] Subtitle Cutoff (In-Game Scenes)"</Description>
-          <Color>0080FF</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
-{$lua}
-
-if syntaxcheck then return end
-
-local a = AOBScanPaused("0a 49 27 6c 6c 20 72 65 73 65 72 76 65 20", "*X-W*C")
-updateSymbol("chSubsFixA", a, true)
-local b = AOBScanPaused("77 65 27 76 65 20 62 65 65 6e 20 74 68 72", "*X-W*C")
-updateSymbol("chSubsFixB", b, true)
-
-{$asm}
-
-chSubsFixA:
-  db 20 49 27 6c 6c 20 72 65 73 65 72 76 65 0a
-
-chSubsFixB:
-  db 77 65 27 76 65 20 62 65 65 6e 0a 74 68 72
-
-[DISABLE]
-{$lua}
-
-{$asm}
-
-chSubsFixA:
-  db 0a 49 27 6c 6c 20 72 65 73 65 72 76 65 20
-
-chSubsFixB:
-  db 77 65 27 76 65 20 62 65 65 6e 20 74 68 72
-
-unregisterSymbol(chSubsFixA)
-unregisterSymbol(chSubsFixB)
-
-</AssemblerScript>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
@@ -1373,19 +1317,19 @@ unregisterSymbol(chSubsFixB)
       <CheatEntries>
         <CheatEntry>
           <ID>132</ID>
-          <Description>"Field Id Major"</Description>
+          <Description>"Field ID Major"</Description>
           <VariableType>4 Bytes</VariableType>
           <Address>_segMisc+0</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>133</ID>
-          <Description>"Field Id Minor"</Description>
+          <Description>"Field ID Minor"</Description>
           <VariableType>4 Bytes</VariableType>
           <Address>_segMisc+4</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>134</ID>
-          <Description>"???"</Description>
+          <Description>"Dungeon ID"</Description>
           <VariableType>4 Bytes</VariableType>
           <Address>_segMisc+8</Address>
         </CheatEntry>
@@ -1805,6 +1749,10 @@ for i, v in pairs(globals) do
   r0.Type = vtDword
   r0.appendToEntry(memrec)
   r0.DontSave = true
+
+  if v.id == "38" then
+    addDDLRef(r0, false, "lstReaperChests")
+  end
 end
 
 {$asm}

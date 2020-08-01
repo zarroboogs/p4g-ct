@@ -28,11 +28,15 @@ A cheat table for the PC version of **Persona 4 Golden**.
 
 ## Table Contents
 
-Most stuff should be self-explanatory; however, some notes may be required:
+### Cheats
+
+* Easy Fishing - Allows you to perform a "Quick-Reel" at any time by pressing the assigned button, without waiting for the prompt. You may still need to read the Expert Fishing book.
+* Easy Bug Catching - Allows you to perform a perfect catch without waiting for the `!` prompt by pressing the assigned catch button.
+* Super Speed - Set the Speed Factor record to a desired value and freeze. To reset, unfreeze the record and move to a different field (e.g. by quick travelling or changing floors).
 
 ### Party Stats
 
-Allows you to edit the party's HP/SP, level, EXP, ailment status, buff status (and buff direction, duration) and equipment.
+Allows you to edit the party's HP/SP, level, EXP, ailment status, buff status/direction/duration and equipment.
 Party member levels and EXP are tied to their persona levels and EXP.
 
 ### Globals
