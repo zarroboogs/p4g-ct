@@ -1693,6 +1693,9 @@ local csvFlags = [[id,name
 2390,E Romance - Ayane
 2621,E Romance - Naoto
 3121,D Field Collision
+1054,D Jester -> Hunger
+1055,E Jester -> Hunger
+2069,E Jester -> Hunger
 ]]
 
 local tblFlags = tsvToTable(csvFlags, nil, ",")
